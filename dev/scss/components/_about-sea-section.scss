@@ -1,0 +1,57 @@
+.about-sea-section {
+    //background-color: $dark-green;
+}
+
+.mini-card {
+  text-align: center;
+  margin-bottom: rem-calc(22);
+
+  @include media('≥phone') {
+    margin-bottom: rem-calc(44);
+  }
+
+  .image {
+    font-size: 59px;
+    color: $black;
+    margin-bottom: rem-calc(5);
+    line-height: 1;
+
+    @include media('≥phone') {
+      margin-bottom: rem-calc(23);
+    }
+  }
+
+  .title {
+    font-size: rem-calc(16);
+    font-weight: 400;
+    color: $black;
+    margin: 0;
+
+    @include media('≥phone') {
+      font-size: rem-calc(22);
+    }
+
+    @include media('≥tablet') {
+      font-size: rem-calc(30);
+    }
+  }
+
+  .sub-title {
+    color: $black;
+    font-size: rem-calc(12);
+    font-weight: 300;
+    line-height: 1;
+
+    @include media('≥phone') {
+      line-height: rem-calc(24);
+      font-size: rem-calc(14);
+    }
+
+    i {
+      display: block;
+      margin-top: rem-calc(6);
+      font-size: rem-calc(10);
+      text-align: center;
+    }
+  }
+}

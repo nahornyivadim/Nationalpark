@@ -1,0 +1,9 @@
+.btn {
+  font-size: $btn-font-size-base;
+  padding: rem-calc(7) rem-calc(15) rem-calc(8);
+  border-radius: rem-calc(2);
+}
+
+.btn-primary {
+  background-color: $dark-blue;
+}

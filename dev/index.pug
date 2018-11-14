@@ -1,0 +1,241 @@
+include pug/common/_head
+    block content
+        include pug/common/_header
+        main#main(role="main")
+            .jumbotron(style='background-image: url("images/jumbotron-main.jpg")')
+                .inner
+                    .holder
+                        h1 Entdecken Sie die Faszination Wattenmeer
+                        form.search-form
+                            input(type='search' placeholder='Suchen Nach')
+                            button
+                                i.icon-search
+                .bottom
+                    .logo
+                        img(src='images/main-logo.png' width='180' height='53' alt='Nationalpark Wattenmeer')
+            section.states-section
+                .container
+                    h2 Ein Wattenmeer, drei Bundesländer:
+                    .holder.d-sm-flex.justify-content-sm-between.align-items-sm-center
+                        ul.states-list
+                            li.dark-blue
+                                a(href='#').d-flex.align-items-center
+                                    .image
+                                        img(src='images/schleswig-holstein.svg' width='37' height='36' alt='Schleswig-Holstein')
+                                    | Schleswig-Holstein
+                            li.dark-green
+                                a(href='#').d-flex.align-items-center
+                                    .image
+                                        img(src='images/hamburg.png' width='24' height='36' alt='Hamburg')
+                                    | Hamburg
+                            li.nautical
+                                a(href='#').d-flex.align-items-center
+                                    .image
+                                        img(src='images/niedersachsen.svg' width='31' height='40' alt='Niedersachsen')
+                                    | Niedersachsen
+                        .states-map
+                            img(src='images/npw-map.png' width='332' height='315' alt='image description')
+            section.info-section
+                .container
+                    h2 Aktuell & Informativ
+                    .row
+                        .col-md-6.col-lg-4
+                            .card
+                                .image(style='background-image: url("images/card1.jpg");')
+                                .card-body
+                                    ul.tags-list
+                                        li.tags-green
+                                            a(href='#') News
+                                        li.tags-yellow
+                                            a(href='#') Tiere
+                                    .footer
+                                        .card-text
+                                            time.time(datetime='26-05-2018') 26.05.2018
+                                            span Schleswig-Holstein
+                                        h5.card-title
+                                            a(href='#') Wurfzeit der Seehunde beginnt
+                                        i.city-emblem
+                        .col-md-6.col-lg-4
+                            .card
+                                .image(style='background-image: url("images/card2.jpg");')
+                                .card-body
+                                    ul.tags-list
+                                        li.tags-green
+                                            a(href='#') Wissensbeitrag
+                                        li.tags-yellow
+                                            a(href='#') Lebensraum
+                                    .footer
+                                        .card-text
+                                            time.time(datetime='09-05-2018') 09.05.2018
+                                            span Hamburg
+                                        h5.card-title
+                                            a(href='#') Seehundwelpen erreichen Rekordzahlen
+                                        i.city-emblem
+                        .col-md-6.col-lg-4
+                            .card
+                                .image(style='background-image: url("images/card3.jpg");')
+                                .card-body
+                                    ul.tags-list
+                                        li.tags-green
+                                            a(href='#') Wissensbeitrag
+                                        li.tags-yellow
+                                            a(href='#') Tiere
+                                    .footer
+                                        .card-text
+                                            time.time(datetime='09-05-2018') 09.05.2018
+                                            span Hamburg
+                                        h5.card-title
+                                            a(href='#') Die Vogelwelt des Nationalparks erleben
+                                        i.city-emblem
+                        .col-md-6.col-lg-8
+                            .card
+                                .image(style='background-image: url("images/card4.jpg");')
+                                .card-body
+                                    ul.tags-list
+                                        li.tags-green
+                                            a(href='#') Medien
+                                        li.tags-yellow
+                                            a(href='#') KINDER & JUGENDLICHE
+                                    .footer
+                                        .card-text
+                                            time.time(datetime='21-05-2018') 21.05.2018
+                                            span Niedersachsen
+                                        h5.card-title
+                                            a(href='#') Einmal Nationalpark-Ranger*in sein
+                                        i.city-emblem
+                                        .icon-play-btn
+                                            i.icon-play
+                        .col-md-6.col-lg-4
+                            .card
+                                .image(style='background-image: url("images/card5.jpg");')
+                                .card-body
+                                    ul.tags-list
+                                        li.tags-green
+                                            a(href='#') Wissensbeitrag
+                                        li.tags-yellow
+                                            a(href='#') Lebensraum
+                                    .footer
+                                        .card-text
+                                            time.time(datetime='21-05-2018') 09.05.2018
+                                            span Hamburg
+                                        h5.card-title
+                                            a(href='#') Seehundwelpen erreichen Rekordzahlen
+                                        i.city-emblem
+            section.about-sea-section
+                .container
+                    h2 Mehr zum Wattenmeer für …
+                    .row
+                        .col-6.col-md-4.col-lg-3
+                            .mini-card
+                                .image
+                                    i.icon-kinder
+                                .body
+                                    h3.title Kinder & Jugend
+                                    span.sub-title Neues im Bekannten entdecken
+                                        i.icon-arrow
+                        .col-6.col-md-4.col-lg-3
+                            .mini-card
+                                .image
+                                    i.icon-familie
+                                .body
+                                    h3.title Familien
+                                    span.sub-title Veranstaltungen, Tipps & mehr
+                                        i.icon-arrow
+                        .col-6.col-md-4.col-lg-3
+                            .mini-card
+                                .image
+                                    i.icon-untersttzer
+                                .body
+                                    h3.title Unterstützer
+                                    span.sub-title Spenden, Ehrenämter & mehr
+                                        i.icon-arrow
+                        .col-6.col-md-4.col-lg-3
+                            .mini-card
+                                .image
+                                    i.icon-sportler
+                                .body
+                                    h3.title Sportler
+                                    span.sub-title Kiten, Surfen, Wandern & mehr
+                                        i.icon-arrow
+                        .col-6.col-md-4.col-lg-3
+                            .mini-card
+                                .image
+                                    i.icon-tagestouristen
+                                .body
+                                    h3.title Tagestouristen
+                                    span.sub-title Touren, Veranstaltungen & mehr
+                                        i.icon-arrow
+                        .col-6.col-md-4.col-lg-3
+                            .mini-card
+                                .image
+                                    i.icon-schulen
+                                .body
+                                    h3.title Schulen
+                                    span.sub-title Lehrmaterial, Führungen & mehr
+                                        i.icon-arrow
+                        .col-6.col-md-4.col-lg-3
+                            .mini-card
+                                .image
+                                    i.icon-einheimische
+                                .body
+                                    h3.title Einheimische
+                                    span.sub-title Neues im Bekannten entdecken
+                                        i.icon-arrow
+                        .col-6.col-md-4.col-lg-3
+                            .mini-card
+                                .image
+                                    i.icon-presse
+                                .body
+                                    h3.title Presse
+                                    span.sub-title Bilder, News & mehr
+                                        i.icon-arrow
+            section.custom-cards-section
+                .container
+                    h2 Auch interessant
+                    .row
+                        .col-12.col-6.col-md-4.d-md-flex
+                            .card.custom-card
+                                .card-body
+                                    h2 Biosphärenreservat Halligen
+                                    .text
+                                        p Biosphärenreservate sind von der UNESCO anerkannte Modellregionen, in denen erprobt wird, wie der Mensch, in gewachsenen Kulturlandschaften auch heute noch nachhaltig wirtschaften und gut leben kann.
+                                    .footer
+                                        i.icon-arrow
+                                        ul.circle-list
+                                            li
+                                                span
+                                            li
+                                                span
+                                            li
+                                                span
+                        .col-12.col-6.col-md-4.d-md-flex
+                            .card.custom-card.card-border
+                                .card-body
+                                    .image
+                                        img(src='images/freigestellt.jpg' alt='junior ranger')
+                                    h2 Ranger
+                                    .text
+                                        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec odio et velit tristique condimentum.
+                                        p Aliquam ultrices non eros a pulvinar. Nulla ac finibus erat. Sed gravida ligula vitae congue lacinia. Nulla facilisi. Nulla tristique rutrum facilisis.
+                                    .footer
+                                        i.icon-arrow
+                                        ul.circle-list
+                                            li
+                                                span
+                        .col-12.col-6.col-md-4.d-md-flex
+                            .card.custom-card.card-img
+                                .header
+                                    ul.tags-list
+                                        li.tags-green
+                                            a(href='#') Wissensbeitrag
+                                        li.tags-yellow
+                                            a(href='#') Lebensraum
+                                    .image(style="background-image: url(images/card5.jpg);")
+                                .card-body
+                                    h2 Seehundwelpen erreichen Rekordzahlen
+                                    .footer
+                                        i.icon-arrow
+                                        ul.circle-list
+                                            li
+                                                span
+        include pug/common/_footer

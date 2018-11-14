@@ -1,0 +1,111 @@
+include pug/common/_head
+    block content
+        include pug/common/_header
+        main#main(role="main")
+            .jumbotron(style='background-image: url("images/bitmap.jpg")')
+                .inner
+                .bottom
+                    .logo
+                        img(src='images/main-logo.png' width='180' height='53' alt='Nationalpark Wattenmeer')
+            section.news-section
+                .container
+                    .h2 Aktuelles aus dem Wattenmeer
+                    .filter-block
+                        form.filter-form
+                            ul.filter-list
+                                li.radio
+                                    input(type='radio' id='Alle' name='count')
+                                    label(for='Alle')
+                                        span
+                                        |Alle
+                                li.radio
+                                    input(type='radio' id='Activ' name='count')
+                                    label(for='Activ')
+                                        span
+                                        |Activ
+                                li.checkbox
+                                    input(type='checkbox' id='schleswig')
+                                    label(for='schleswig')
+                                        span
+                                        |Schleswig-Holstein
+                                li.checkbox
+                                    input(type='checkbox' id='niedersachsen')
+                                    label(for='niedersachsen')
+                                        span
+                                        |Niedersachsen
+                                li.checkbox
+                                    input(type='checkbox' id="hamburg")
+                                    label(for='hamburg')
+                                        span
+                                        |Hamburg
+                            .select-wrap
+                                select
+                                    option nach Datum sortieren
+                                    option nach Datum sortieren
+                                button.btn.btn-primary weiter
+                .news-block
+                    .container
+                        .holder
+                            .row
+                                .col-12.col-md-6.col-lg-12
+                                    .news-item
+                                        .inner.d-flex.flex-column.flex-lg-row
+                                            .news-text.order-1.order-lg-0
+                                                ul.tags-list
+                                                    li.tags-green
+                                                        a(href='#') Lorem Ipsum
+                                                    li.tags-yellow
+                                                        a(href='#') Lorem Ipsum
+                                                h3.title Krabben-Brötchen kosten wieder weniger
+                                                .text
+                                                    p Lorem ipsum dolor sit amet, consectetur adipiscing lectus nisi, ac sodales lorem imperdiet vitae.
+                                                .published
+                                                    time(datetime='26-05-2018') 26.05.2018
+                                                    span Niedersachsen
+                                            .news-image.order-0.order-lg-1
+                                                img(src='images/news1.jpg' width='175' height='115'  alt='image description')
+                                .col-12.col-md-6.col-lg-12
+                                    .news-item
+                                        .inner.d-flex.flex-column.flex-lg-row
+                                            .news-text.order-1.order-lg-0
+                                                h3.title Krabben-Brötchen kosten wieder weniger
+                                                .text
+                                                    p Lorem ipsum dolor sit amet, consectetur adipiscing lectus nisi, ac sodales lorem imperdiet vitae.
+                                                .published
+                                                    time(datetime='26-05-2018') 26.05.2018
+                                                    span Niedersachsen
+                                            .news-image
+                                                img(src='images/news1.jpg' width='175' height='115'  alt='image description')
+                                .col-12.col-md-6.col-lg-12
+                                    .news-item
+                                        .inner.d-flex.flex-column.flex-lg-row
+                                            .news-text.order-1.order-lg-0
+                                                h3.title Krabben-Brötchen kosten wieder weniger
+                                                .text
+                                                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean.
+                                                .published
+                                                    time(datetime='26-05-2018') 26.05.2018
+                                                    span Niedersachsen
+                        .pagination-block
+                            nav
+                                ul.pagination
+                                    li.page-item
+                                        a.page-link(href='#')
+                                            i.icon-arrow
+                                    li.page-item
+                                        a.page-link(href='#') 1
+                                    li.page-item
+                                        a.page-link(href='#') 2
+                                    li.page-item.active
+                                        a.page-link(href='#') 3
+                                    li.page-item
+                                        a.page-link(href='#') 4
+                                    li.page-item
+                                        a.page-link(href='#') ...
+                                    li.page-item
+                                        a.page-link(href='#') 20
+                                    li.page-item
+                                        a.page-link(href='#')
+                                            i.icon-arrow
+
+        include pug/common/_footer

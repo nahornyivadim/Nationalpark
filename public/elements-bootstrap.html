@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Project Title</title>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header id="header">
+				<div class="header-top">
+					<div class="container">
+						<div class="inner">
+							<ul class="lang-list">
+								<li class="active"><a href="#">de</a></li>
+								<li><a href="#">en</a></li>
+							</ul>
+							<select class="hoose-state">
+								<option selected="selected">Bundesland wählen</option>
+								<option>Schleswig-Holstein</option>
+								<option>Hamburg</option>
+								<option>Niedersachsen</option>
+							</select>
+							<form class="search-form">
+								<input type="search">
+								<button type="submit"><i class="icon-search"></i></button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="header-bottom">
+					<div class="container">
+						<nav class="navbar navbar-expand-lg"><a class="navbar-brand" href="#"><i class="icon-home"></i></a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i></i></span></button>
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav">
+									<li class="nav-item active"><a class="nav-link" href="#">Wissen & Informieren</a></li>
+									<li class="nav-item"><a class="nav-link" href="#">Besuchen & Erleben</a></li>
+									<li class="nav-item"><a class="nav-link" href="#">Lernen & Verstehen</a></li>
+									<li class="nav-item"><a class="nav-link" href="#">Mitmachen & Unterstützen</a></li>
+									<li class="nav-item"><a class="nav-link" href="#">Service & Medien</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<main id="main">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<h2>Alerts</h2>
+							<div class="alert alert-warning alert-dismissible fade show" role="alert"><strong>Holy guacamole!</strong> You should check in on some of those fields below.
+								<button class="close" type="button" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+							</div>
+							<div class="alert alert-primary" role="alert">This is a primary alert—check it out!</div>
+							<div class="alert alert-secondary" role="alert">This is a secondary alert—check it out!</div>
+							<div class="alert alert-success" role="alert">This is a success alert—check it out!</div>
+							<div class="alert alert-danger" role="alert">This is a danger alert—check it out!</div>
+							<div class="alert alert-warning" role="alert">This is a warning alert—check it out!</div>
+							<div class="alert alert-info" role="alert">This is a info alert—check it out!</div>
+							<div class="alert alert-light" role="alert">This is a light alert—check it out!</div>
+							<div class="alert alert-dark" role="alert">This is a dark alert—check it out!</div>
+						</div>
+						<hr>
+						<div class="col-12">
+							<h2>Breadcrumb</h2>
+							<nav aria-label="breadcrumb" role="navigation">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item active" aria-current="page">Home</li>
+								</ol>
+							</nav>
+							<nav aria-label="breadcrumb" role="navigation">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="#">Home</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Library</li>
+								</ol>
+							</nav>
+							<nav aria-label="breadcrumb" role="navigation">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="#">Home</a></li>
+									<li class="breadcrumb-item"><a href="#">Library</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Data</li>
+								</ol>
+							</nav>
+						</div>
+						<hr>
+						<div class="col-12">
+							<h2>Buttons</h2>
+							<button class="btn btn-primary" type="button">Primary</button>
+							<button class="btn btn-secondary" type="button">Secondary</button>
+							<button class="btn btn-success" type="button">Success</button>
+							<button class="btn btn-danger" type="button">Danger</button>
+							<button class="btn btn-warning" type="button">Warning</button>
+							<button class="btn btn-info" type="button">Info</button>
+							<button class="btn btn-light" type="button">Light</button>
+							<button class="btn btn-dark" type="button">Dark</button>
+							<button class="btn btn-link" type="button">Link</button>
+							<h3>Outline buttons</h3>
+							<button class="btn btn-outline-primary" type="button">Primary</button>
+							<button class="btn btn-outline-secondary" type="button">Secondary</button>
+							<button class="btn btn-outline-success" type="button">Success</button>
+							<button class="btn btn-outline-danger" type="button">Danger</button>
+							<button class="btn btn-outline-warning" type="button">Warning</button>
+							<button class="btn btn-outline-info" type="button">Info</button>
+							<button class="btn btn-outline-light" type="button">Light</button>
+							<button class="btn btn-outline-dark" type="button">Dark</button>
+							<h3>Sizes</h3>
+							<button class="btn btn-primary btn-lg" type="button">Large button</button>
+							<button class="btn btn-secondary btn-lg" type="button">Large button</button>
+							<button class="btn btn-primary btn-sm" type="button">Small button</button>
+							<button class="btn btn-secondary btn-sm" type="button">Small button</button>
+							<h3>Checkbox and radio buttons</h3>
+							<div class="row">
+								<div class="col-12">
+									<div class="btn-group" data-toggle="buttons">
+										<label class="btn btn-secondary active">
+											<input type="checkbox" checked="" autocomplete="off">Checkbox 1 (pre-checked)
+										</label>
+										<label class="btn btn-secondary">
+											<input type="checkbox" autocomplete="off">Checkbox 2
+										</label>
+										<label class="btn btn-secondary">
+											<input type="checkbox" autocomplete="off">Checkbox 3.row
+										</label>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="btn-group" data-toggle="buttons">
+										<label class="btn btn-secondary active">
+											<input id="option1" type="radio" name="options" autocomplete="off" checked="">Radio 1 (preselected)
+										</label>
+										<label class="btn btn-secondary">
+											<input id="option2" type="radio" name="options" autocomplete="off">Radio 2
+										</label>
+										<label class="btn btn-secondary">
+											<input id="option3" type="radio" name="options" autocomplete="off">Radio 3
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="col-12">
+							<h2>Button group</h2>
+							<h3>Basic example</h3>
+							<div class="btn-group" role="group" aria-label="Basic example">
+								<button class="btn btn-secondary" type="button">Left</button>
+								<button class="btn btn-secondary" type="button">Middle</button>
+								<button class="btn btn-secondary" type="button">Right</button>
+							</div>
+							<h3>Nesting</h3>
+							<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+								<button class="btn btn-secondary" type="button">1</button>
+								<button class="btn btn-secondary" type="button">2</button>
+								<div class="btn-group" role="group">
+									<button class="btn btn-secondary dropdown-toggle" id="btnGroupDrop1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+									<div class="dropdown-menu" aria-labelledby="btnGroupDrop1"><a class="dropdown-item" href="#">Dropdown link</a><a class="dropdown-item" href="#">Dropdown link</a></div>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="col-12">
+							<h2 id="ddddd">Cards</h2>
+							<div class="card" style="width: 20rem;"><img class="card-img-top" alt="100%x180" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fbe6a517f%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fbe6a517f%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22118.015625%22%20y%3D%2297.2%22%3E318x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+								<div class="card-body">
+									<h4 class="card-title">Card title</h4>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a class="btn btn-primary" href="#">Go somewhere</a>
+								</div>
+							</div>
+							<h3>Titles, text, and links</h3>
+							<div class="card" style="width: 20rem;">
+								<div class="card-body">
+									<h4 class="card-title">Card title</h4>
+									<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a class="card-link" href="#">Card link</a><a class="card-link" href="#">Another link</a>
+								</div>
+							</div>
+							<h3>Images</h3>
+							<div class="card" style="width: 20rem;"><img class="card-img-top" alt="100%x180" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fbe6a517f%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fbe6a517f%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22118.015625%22%20y%3D%2297.2%22%3E318x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+								<div class="card-body">
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								</div>
+							</div>
+							<h3>Text alignment</h3>
+							<div class="card" style="width: 20rem;">
+								<div class="card-body">
+									<h4 class="card-title">Special title treatment</h4>
+									<p class="card-text">With supporting text below as a natural lead-in to additional content.</p><a class="btn btn-primary" href="#">Go somewhere</a>
+								</div>
+							</div>
+							<div class="card text-center" style="width: 20rem;">
+								<div class="card-body">
+									<h4 class="card-title">Special title treatment</h4>
+									<p class="card-text">With supporting text below as a natural lead-in to additional content.</p><a class="btn btn-primary" href="#">Go somewhere</a>
+								</div>
+							</div>
+							<div class="card text-right" style="width: 20rem;">
+								<div class="card-body">
+									<h4 class="card-title">Special title treatment</h4>
+									<p class="card-text">With supporting text below as a natural lead-in to additional content.</p><a class="btn btn-primary" href="#">Go somewhere</a>
+								</div>
+							</div>
+							<h3>Card groups</h3>
+							<div class="card-group">
+								<div class="card"><img class="card-img-top" alt="100%x180" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22209%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20209%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fbe6a5192%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fbe6a5192%22%3E%3Crect%20width%3D%22209%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2278.9296875%22%20y%3D%2294.5%22%3E209x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									</div>
+								</div>
+								<div class="card"><img class="card-img-top" alt="100%x180" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22209%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20209%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fbe6a5192%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fbe6a5192%22%3E%3Crect%20width%3D%22209%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2278.9296875%22%20y%3D%2294.5%22%3E209x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									</div>
+								</div>
+								<div class="card"><img class="card-img-top" alt="100%x180" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22209%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20209%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fbe6a5192%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fbe6a5192%22%3E%3Crect%20width%3D%22209%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2278.9296875%22%20y%3D%2294.5%22%3E209x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									</div>
+								</div>
+							</div>
+							<h3>Card decks</h3>
+							<div class="card-deck">
+								<div class="card"><img class="card-img-top" alt="100%x200" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22189%22%20height%3D%22200%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20189%20200%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fbe6a51b4%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fbe6a51b4%22%3E%3Crect%20width%3D%22189%22%20height%3D%22200%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2268.9296875%22%20y%3D%22104.5%22%3E189x200%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									</div>
+								</div>
+								<div class="card"><img class="card-img-top" alt="100%x200" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22189%22%20height%3D%22200%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20189%20200%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fbe6a51b4%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fbe6a51b4%22%3E%3Crect%20width%3D%22189%22%20height%3D%22200%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2268.9296875%22%20y%3D%22104.5%22%3E189x200%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									</div>
+								</div>
+								<div class="card"><img class="card-img-top" alt="100%x200" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22189%22%20height%3D%22200%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20189%20200%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fbe6a51b4%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fbe6a51b4%22%3E%3Crect%20width%3D%22189%22%20height%3D%22200%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2268.9296875%22%20y%3D%22104.5%22%3E189x200%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+									<div class="card-body">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="col-12">
+							<h2></h2>
+						</div>
+						<hr>
+						<div class="col-12">
+							<h2></h2>
+						</div>
+						<hr>
+						<div class="col-12">
+							<h2></h2>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer id="footer">
+				<div class="container">
+					<div class="holder d-flex justify-content-between flex-wrap">
+						<div class="col-sm-6 col-lg-4 d-flex">
+							<ul class="city-list">
+								<li><a href="#">
+										<div class="image"><img src="images/Niedersachsen.png" width="32" height="41" alt="Niedersachsen"></div><span>Niedersachsen</span></a></li>
+								<li><a href="#">
+										<div class="image"><img src="images/hamburg.png" width="65" height="30" alt="hamburg"></div><span>Hamburg</span></a></li>
+								<li><a href="#">
+										<div class="image"><img src="images/schleswig-holstein.png" width="67" height="34" alt="schleswig-holstein"></div><span>Schleswig-Holstein</span></a></li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-lg-4 d-flex align-items-center justify-content-between align-items-lg-start">
+							<div class="img-brand"><img src="images/bildschirmfoto.jpg" width="165" height="114" alt="Das wattenmeer"></div>
+							<div class="img-brand"><img src="images/wattenmeer.jpg" width="128" height="83" alt="wattenmeer"></div>
+						</div>
+						<div class="col-lg-4 d-flex justify-content-sm-around justify-content-lg-between">
+							<ul class="soc-list">
+								<li><a href="#"><i class="icon-facebook"></i>Schleswig-Holstein</a></li>
+								<li><a href="#"><i class="icon-facebook"></i>Hamburg</a></li>
+								<li><a href="#"><i class="icon-facebook"></i>Niedersachsen</a></li>
+								<li><a href="#"><i class="icon-email"></i>Newsletter</a></li>
+							</ul>
+							<ul class="menu">
+								<li><a href="#">Impressum</a></li>
+								<li><a href="#">Datenschutz</a></li>
+								<li><a href="#">Presse</a></li>
+								<li><a href="#">Kontakt</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="bottom">
+						<div class="copyright">© 2018 <a href="#">Nationalpark Wattenmeer</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')</script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.main.js"></script>
+	</body>
+</html>

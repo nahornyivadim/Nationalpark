@@ -1,0 +1,373 @@
+#content {
+  h1 {
+    color: $black;
+    text-align: left;
+  }
+}
+
+.widget {
+  @extend %clearfix;
+  margin-bottom: $widget-margin;
+
+  select {
+    min-width: 150px;
+  }
+}
+
+.search-form,
+.post-password-form {
+  @extend %clearfix;
+
+  label {
+    display: block;
+  }
+
+  p {
+    @extend %clearfix;
+  }
+
+  input[type='search'],
+  input[type='text'],
+  input[type='email'] {
+    float: left;
+    margin-right: 5px;
+    #sidebar & {
+      @include media('≥tablet') {
+        width: 100%;
+        margin: 0 0 5px;
+        height: 35px;
+      }
+    }
+
+    &[type='submit'] {
+      margin: 0;
+      padding: $submit-btn-padding;
+      color: $submit-btn-default-color;
+      font-size: $submit-btn-font-size-base;
+      font-weight: $submit-btn-font-weight;
+      line-height: $submit-btn-line-height;
+      border-radius: $submit-btn-border-radius;
+      border: $submit-btn-border-width solid $submit-btn-default-border;
+      background: $submit-btn-default-bg;
+      cursor: pointer;
+    }
+  }
+}
+
+.nav-links,
+.navigation,
+.navigation-comments {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  vertical-align: middle;
+  margin: 0 -3px $vertical-rhythm;
+
+  .screen-reader-text {
+    position: absolute;
+    left: -99999px;
+  }
+
+  .page-numbers {
+    margin: 0 3px;
+  }
+
+  .next,
+  .prev {
+    @include animate(all);
+    display: inline-block;
+    vertical-align: middle;
+    padding: $btn-padding;
+    color: $btn-default-color;
+    font-size: $btn-font-size-base;
+    font-weight: $btn-font-weight;
+    line-height: $btn-line-height;
+    border-radius: $btn-border-radius;
+    border: $btn-border-width solid $btn-default-border;
+    background: $btn-default-bg;
+    margin-bottom: 5px;
+
+    &:hover {
+      text-decoration: none;
+      background-color: #ccc;
+      color: $white;
+    }
+  }
+}
+
+.navigation-single {
+  margin-bottom: $vertical-rhythm;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .next,
+  .prev {
+    max-width: 49%;
+    display: flex;
+    align-items: center;
+
+    > a {
+      @include animate(all);
+      display: flex;
+      padding: $btn-padding;
+      color: $btn-default-color;
+      font-size: $btn-font-size-base;
+      font-weight: $btn-font-weight;
+      line-height: $btn-line-height;
+      border-radius: $btn-border-radius;
+      border: $btn-border-width solid $btn-default-border;
+      background: $btn-default-bg;
+
+      &:hover {
+        text-decoration: none;
+        background-color: #ccc;
+        color: $white;
+      }
+    }
+  }
+}
+
+.comment-form {
+  label {
+    display: block;
+    padding-bottom: 4px;
+  }
+
+  input,
+  textarea {
+    margin: 0 4px 0 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+
+    @include media('≥tablet') {
+      max-width: 300px;
+    }
+
+    &[type='submit'] {
+      @include animate(all);
+      display: block;
+      width: auto;
+      padding: $submit-btn-padding;
+      color: $submit-btn-default-color;
+      font-size: $submit-btn-font-size-base;
+      font-weight: $submit-btn-font-weight;
+      line-height: $submit-btn-line-height;
+      border-radius: $submit-btn-border-radius;
+      border: $submit-btn-border-width solid $submit-btn-default-border;
+      background: $submit-btn-default-bg;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: none;
+        background-color: #ccc;
+        color: $white;
+      }
+    }
+  }
+
+  textarea {
+    overflow: auto;
+    margin: 0;
+    height: 120px;
+    min-height: 120px;
+    border: 1px solid;
+  }
+}
+
+.commentlist {
+  margin: 0 0 1.2em;
+
+  .edit-link {
+    margin: 0;
+  }
+
+  .avatar-holder {
+    float: left;
+    margin: 0 1.2em 4px 0;
+  }
+}
+
+.commentlist-item {
+  .commentlist-item {
+    padding: 0;
+    @include media('≥tablet') {
+      padding: 0 0 0 2em;
+    }
+  }
+}
+
+.comment,
+.commentlist-holder {
+  overflow: hidden;
+}
+
+.commentlist-item .commentlist-item,
+.commentlist-item + .commentlist-item {
+  padding-top: 20px;
+}
+
+.widget_calendar {
+  th,
+  td {
+    text-align: center;
+  }
+
+  #prev {
+    text-align: left;
+  }
+
+  #next {
+    text-align: right;
+  }
+}
+
+#wp-calendar {
+  width: 100%;
+}
+
+.wp-caption {
+  max-width: 100%;
+  clear: both;
+  border: $wp-caption-border;
+  padding: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 4px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.aligncenter {
+  margin: 0 auto $vertical-rhythm;
+}
+
+img {
+  &.aligncenter {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.alignleft {
+  float: left;
+  margin: 0 1.2em 4px 0;
+}
+
+.alignright {
+  float: right;
+  margin: 0 0 4px 1.2em;
+}
+
+.mejs-container {
+  margin-bottom: $vertical-rhythm;
+}
+
+.wp-caption-text,
+.gallery,
+.alignnone,
+.gallery-caption,
+.sticky,
+.bypostauthor {
+  height: auto;
+}
+
+.gallery {
+  .gallery-item {
+    padding: 0 10px;
+
+    dt {
+      float: none;
+      width: 100%;
+      margin: 0 0 10px;
+      padding: 0;
+    }
+  }
+}
+
+.widget {
+  select {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 0.75rem;
+    color: #ccc;
+    padding: 0.1875rem 0.1875rem 0.1875rem 0.8125rem;
+    cursor: pointer;
+  }
+
+  .search-form {
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+
+    input[type='submit'] {
+      width: 15px;
+      font-size: 0;
+      background: url("images/search-icon.svg") no-repeat center;
+      background-size: cover;
+    }
+  }
+}
+
+#content {
+  .search-form {
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+
+    input[type='search'] {
+      width: $input-width;
+      padding: $input-padding;
+      border: $input-border;
+      border-bottom: 1px solid #4a4a4a;
+      background: $input-bg;
+      height: 35px;
+    }
+
+    input[type='submit'] {
+      width: 15px;
+      font-size: 0;
+      background: url("images/search-icon.svg") no-repeat center;
+      background-size: cover;
+    }
+  }
+
+  .post-password-form {
+    padding-top: rem-calc(40);
+    p {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    label {
+      width: 100%;
+    }
+
+    input[type='password']{
+      width: 80%;
+      padding: $input-padding;
+      border: $input-border;
+      border-bottom: 1px solid #4a4a4a;
+      background: $input-bg;
+      height: 35px;
+    }
+    input[type='submit'] {
+      width: 20%;
+    }
+  }
+}

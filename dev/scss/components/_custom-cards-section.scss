@@ -1,0 +1,158 @@
+.custom-cards-section {
+
+}
+
+.custom-card {
+  background-color: #b3c97f;
+  min-height: auto;
+
+  .header {
+    position: relative;
+    min-height: 160px;
+    padding: rem-calc(16) rem-calc(17) rem-calc(10);
+
+    .image {
+      &:after {
+        height: 50px;
+      }
+    }
+  }
+
+  .card-body {
+    padding: rem-calc(28) rem-calc(17) rem-calc(10) rem-calc(17);
+  }
+
+  h2 {
+    text-align: left;
+    margin-bottom: rem-calc(9);
+
+    @include media('<lg-phone') {
+      font-size: rem-calc(18);
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .text {
+    color: $black;
+    font-size: rem-calc(16);
+    font-weight: 400;
+    line-height: rem-calc(26);
+    p {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .circle-list {
+    @extend %listreset;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+
+    li {
+      margin-right: rem-calc(10);
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    span {
+      display: block;
+      width: 25px;
+      height: 25px;
+      background-color: rgba(250, 251, 252, 0.5);
+      border-radius: 50%;
+
+      @include media('≥desktop') {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icon-arrow {
+    font-size: rem-calc(10);
+    color: $black;
+  }
+
+  &.card-img {
+    .card-body {
+      padding: rem-calc(16px) rem-calc(10) rem-calc(10) rem-calc(24);
+    }
+
+    .circle-list {
+      span {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(242, 242, 242, 0.9);
+
+        @include media('≥desktop') {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+  }
+
+  &.card-border {
+    background: $white;
+    border-right: 3px solid #b3c97f;
+    border-bottom: 3px solid #b3c97f;
+
+    .card-body {
+      padding-top: 0;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40%;
+      height: 3px;
+      background-color: #b3c97f;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 80%;
+      width: 3px;
+      background-color: #b3c97f;
+    }
+
+    .image {
+      position: static;
+      margin-bottom: rem-calc(12);
+      &:after {
+        display: none;
+      }
+    }
+
+    .circle-list {
+      span {
+        background-color: rgba(179, 201, 127, 0.6);
+      }
+    }
+
+    .text {
+      p {
+        font-size: rem-calc(14);
+        margin-bottom: rem-calc(8);
+        line-height: 1.3;
+      }
+    }
+  }
+}

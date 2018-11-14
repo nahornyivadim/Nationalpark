@@ -1,0 +1,92 @@
+// Typography
+
+//@include title-size('≥');
+
+h1,
+.h1 {
+  font-size: rem-calc(28);
+  font-weight: 700;
+  color: $white;
+  margin-bottom: rem-calc(15);
+
+  @include media('≥tablet') {
+    font-size: rem-calc(38);
+  }
+
+  @include media('≥desktop') {
+    font-size: rem-calc(48);
+    line-height: 58px;
+  }
+}
+h2,
+.h2,.h2 {
+  font-size: rem-calc(24);
+  font-weight: 700;
+  color: $black;
+  text-align: center;
+  margin-bottom: rem-calc(20);
+
+  &:after {
+    display: block;
+    margin: rem-calc(15) auto auto;
+    content:'';
+    width: 30px;
+    height: 1px;
+    background-color: #92b248;
+
+    @include media('≥tablet') {
+      margin: rem-calc(20) auto auto;
+    }
+
+    @include media('≥desktop') {
+      margin: rem-calc(29) auto auto;
+    }
+  }
+
+  @include media('≥tablet') {
+    font-size: rem-calc(28);
+    margin-bottom: rem-calc(35);
+  }
+
+  @include media('≥desktop') {
+    font-size: rem-calc(30);
+    margin-bottom: rem-calc(42);
+  }
+}
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 ,
+h6,
+.h6,
+.h {
+  //font-family: $headings-font-family;
+  //color: $headings-color;
+  font-weight: bold;
+  margin: 0 0 10px;
+
+  @include media('≥tablet') {
+    margin-bottom: 20px;
+  }
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+a {
+  //color: $base-link-color;
+  //text-decoration: $text-decoration;
+  //
+  //&:hover,
+  //&:focus {
+  //  color: $base-link-hover-color;
+  //  text-decoration: $text-decoration-hover;
+  //}
+}
+
+a[href*="mailto:"] {
+  word-wrap: break-word;
+}

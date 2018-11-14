@@ -1,0 +1,120 @@
+.jumbotron {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  background-repeat:  no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: rem-calc(36);
+    min-height: 375px;
+    padding-bottom: 85px;
+
+    @include media('≥tablet') {
+      min-height: 575px;
+    }
+  }
+
+  .holder {
+    @include media('≥desktop') {
+      max-width: 755px;
+    }
+    text-align: center;
+  }
+
+  .search-form {
+    max-width: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    input[type='search'] {
+      height: 30px;
+      border-color: $white;
+      font-size: rem-calc(16);
+      color: $white;
+
+      @include media('≥tablet') {
+        font-size: rem-calc(24);
+        height: 50px;
+      }
+
+      @include placeholder {
+        color: $white;
+      }
+    }
+
+    button {
+      @include animate(opacity);
+      right: rem-calc(7);
+      cursor: pointer;
+      opacity: 1;
+      &:hover {
+        opacity: .9;
+      }
+      i {
+        &:before {
+          font-size: rem-calc(16);
+          color: $white;
+
+          @include media('≥tablet') {
+            font-size: rem-calc(20);
+          }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $dark-blue;
+    padding-top: rem-calc(10);
+    padding-bottom: rem-calc(10);
+    padding-right: rem-calc(30);
+
+    @include media('≥tablet') {
+      padding-top: rem-calc(20);
+      padding-bottom: rem-calc(34);
+      padding-right: rem-calc(70);
+    }
+
+    &:after {
+      width: 300px;
+      height: 30px;
+      content: ' ';
+      position: absolute;
+      bottom: 100%;
+      right: 0;
+      background-image: url("images/weg.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+
+      @include media('≥tablet') {
+        width: 394px;
+        height: 56px;
+        background-position: center;
+      }
+    }
+
+    .logo {
+      width: 180px;
+      height: 53px;
+      margin-left: auto;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

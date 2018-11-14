@@ -1,0 +1,138 @@
+.card {
+  min-height: 360px;
+  z-index: 1;
+  margin-bottom: rem-calc(25);
+
+  &-title {
+    a {
+      @include animate(color);
+      color: #fbfbfb;
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: $card-body-padding;
+  }
+
+  &-text {
+    display: flex;
+    align-items: center;
+    font-size: rem-calc(14);
+    color: #fbfbfb;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: rem-calc(8);
+
+    .time {
+      &:after {
+        content: '|';
+        margin: 0 rem-calc(6);
+      }
+    }
+  }
+
+  .image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &:after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      content: '';
+      height: 195px;
+      opacity: 0.7;
+      background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+      margin-top: auto;
+    }
+  }
+
+  .city-emblem {
+    position: absolute;
+    right: rem-calc(16);
+    bottom: rem-calc(16);
+    z-index: 1;
+  }
+
+  .icon-play-btn {
+    @include animate(color);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: rem-calc(60);
+    color: rgba(255,255,255,.9);
+    z-index: 1;
+    &:hover {
+      color: rgba(255,255,255,1);
+    }
+  }
+}
+
+.tags-list {
+  @extend %listreset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  li {
+    font-size: rem-calc(12);
+    line-height: rem-calc(11);
+    text-transform: uppercase;
+    margin-right: rem-calc(11);
+    margin-bottom: rem-calc(10);
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      @include animate(background-color);
+      display: block;
+      padding: rem-calc(6) rem-calc(14);
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .tags-yellow {
+    background-color: $tags-yellow;
+    a {
+      color: $black;
+      font-weight: 600;
+      &:hover {
+        background-color: rgba(203, 187, 48, 0.78);
+      }
+    }
+  }
+
+  .tags-green {
+    background-color: $tags-green;
+    a {
+      color: #fbfbfb;
+      &:hover {
+        background-color: #42590f;
+      }
+    }
+  }
+}

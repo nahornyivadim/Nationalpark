@@ -1,0 +1,40 @@
+header#header
+	.header-top
+		.container
+			.inner
+				ul.lang-list
+					li.active
+						a(href='#') de
+					li
+						a(href='#') en
+				select.hoose-state
+					option(selected="selected") Bundesland wählen
+					option Schleswig-Holstein
+					option Hamburg
+					option Niedersachsen
+				form.search-form
+					input(type='search')
+					button(type='submit')
+						i.icon-search
+	.header-bottom
+		.container
+			nav.navbar.navbar-expand-lg
+				a.navbar-brand(href='#')
+					i.icon-home
+				button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+					span.navbar-toggler-icon
+						i
+				#navbarNav.collapse.navbar-collapse
+					ul.navbar-nav
+						li.nav-item.active
+							a.nav-link(href='#') Wissen & Informieren
+						li.nav-item
+							a.nav-link(href='#') Besuchen & Erleben
+						li.nav-item
+							a.nav-link(href='#') Lernen & Verstehen
+						li.nav-item
+							a.nav-link(href='#') Mitmachen & Unterstützen
+						li.nav-item
+							a.nav-link(href='#') Service & Medien
+
+

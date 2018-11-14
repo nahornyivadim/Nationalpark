@@ -1,0 +1,108 @@
+.states-section {
+  padding-top: rem-calc(20);
+  padding-bottom: rem-calc(20);
+  //background-color: $nautical;
+
+  @include media('≥tablet') {
+    padding-top: rem-calc(43);
+    padding-bottom: rem-calc(41);
+  }
+
+  .holder {
+    max-width: 947px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.states-list {
+  @extend %listreset;
+  margin-bottom: rem-calc(20);
+
+  @include media('≥lg-phone') {
+    margin-bottom: 0;
+  }
+
+  li {
+    position: relative;
+    padding: rem-calc(14px) rem-calc(15) rem-calc(20) rem-calc(30);
+    background-color: #f2f2f2;
+    margin-bottom: rem-calc(13);
+    cursor: pointer;
+    z-index: 1;
+    font-size: rem-calc(16);
+
+    @include media('≥tablet') {
+      font-size: rem-calc(25);
+      padding: rem-calc(14px) rem-calc(15) rem-calc(20) rem-calc(57);
+    }
+
+    @include media('≥desktop') {
+      font-size: rem-calc(30);
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:before {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 100%;
+      width: 20px;
+      content: '';
+      background-color: $dark-blue;
+      z-index: -1;
+    }
+
+    &.nautical {
+      &:before {
+        background-color: $nautical;
+      }
+    }
+
+    &.dark-green {
+      &:before {
+        background-color: $dark-green;
+      }
+    }
+
+    //&:hover {
+    //  &:before {
+    //    width: 100%;
+    //    height: 10px;
+    //  }
+    //}
+  }
+
+  .image {
+    width: 37px;
+    margin-right: rem-calc(16);
+    text-align: center;
+  }
+
+  a {
+    color: $black;
+    text-decoration: none;
+    font-weight: 400;
+  }
+}
+
+.states-map {
+  @include media('≥lg-phone') {
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding-left: rem-calc(30);
+  }
+
+  @include media('≥desktop') {
+    max-width: 362px;
+    flex: 0 0 362px;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+  }
+}

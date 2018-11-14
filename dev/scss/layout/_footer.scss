@@ -1,0 +1,132 @@
+#footer {
+  .holder {
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+    padding-bottom: rem-calc(30);
+    padding-top: rem-calc(25);
+  }
+
+  .item {
+    @include media('≥phone') {
+      width: 50%;
+    }
+  }
+
+  .bottom {
+    padding: rem-calc(14) 0;
+
+    .copyright {
+      @include animate(color);
+      color: $black;
+      font-size: rem-calc(12);
+      font-weight: 300;
+      &:hover {
+        color: $dark-blue;
+      }
+      a {
+        color: inherit;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.city-list {
+  @extend %listreset;
+  margin-bottom: 20px;
+  @include media('≥tablet') {}
+
+  li {
+    @include animate(opacity);
+    opacity: 1;
+    margin-bottom: rem-calc(15);
+
+    @include media('≥tablet') {
+      margin-bottom: rem-calc(33);
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .image {
+    width: 67px;
+    text-align: center;
+    margin-right: rem-calc(15);
+  }
+
+  span {
+    color: $black;
+    font-size: rem-calc(16);
+    font-weight: 400;
+
+    @include media('≥tablet') {
+      font-size: rem-calc(20);
+    }
+  }
+}
+
+.soc-list {
+  @extend %listreset;
+  padding: 0 10px;
+  margin-bottom: rem-calc(15);
+  a {
+    @include animate(color);
+    color: $black;
+    font-size: rem-calc(12);
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: none;
+      color: $dark-blue;
+    }
+
+    i {
+      margin-right: rem-calc(10);
+    }
+  }
+}
+
+.img-brand {
+  padding: 0 10px;
+  margin-bottom: rem-calc(15);
+
+  img {
+    @include media('<desktop') {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.menu {
+  @extend %listreset;
+  a {
+    @include animate(color);
+    color: $black;
+    font-size: rem-calc(12);
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: none;
+      color: $dark-blue;
+    }
+  }
+}

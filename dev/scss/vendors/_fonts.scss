@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1liwh');
+  src:  url('fonts/icomoon.eot?1liwh#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?1liwh') format('truetype'),
+  url('fonts/icomoon.woff?1liwh') format('woff'),
+  url('fonts/icomoon.svg?1liwh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e900";
+}
+.icon-bottom-arrow:before {
+  content: "\e901";
+}
+.icon-einheimische:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-familie:before {
+  content: "\e904";
+}
+.icon-hamburg:before {
+  content: "\e905";
+}
+.icon-home:before {
+  content: "\e906";
+}
+.icon-kinder:before {
+  content: "\e907";
+}
+.icon-play:before {
+  content: "\e908";
+}
+.icon-presse:before {
+  content: "\e909";
+}
+.icon-schleswig-holstein:before {
+  content: "\e90a";
+}
+.icon-schulen:before {
+  content: "\e90b";
+}
+.icon-search:before {
+  content: "\e90c";
+}
+.icon-sportler:before {
+  content: "\e90d";
+}
+.icon-tagestouristen:before {
+  content: "\e90e";
+}
+.icon-untersttzer:before {
+  content: "\e90f";
+}
