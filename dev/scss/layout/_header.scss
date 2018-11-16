@@ -1,12 +1,11 @@
 #header {
-
+  box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.3);
 }
 
 //header top
 .header-top {
   background-color: #f1f1f1;
   padding: rem-calc(4) 0 rem-calc(5) 0;
-
 
   .inner {
     display: flex;
@@ -155,13 +154,16 @@
     height: 2px;
     background-color: $dark-blue;
   }
+
+  &:focus , &:active {
+    outline: none;
+  }
 }
 
 .hoose-state {
   width: $select-width;
   //height: $select-height;
   border: $select-border;
-  background: $select-bg;
   font-size: $select-font-size;
   color: $select-color;
   padding: $select-padding;
@@ -182,7 +184,7 @@
     background: $input-bg;
   }
 
-  button,input[type='submit'] {
+  button, input[type='submit'] {
     padding: 0;
     position: absolute;
     right: rem-calc(3);

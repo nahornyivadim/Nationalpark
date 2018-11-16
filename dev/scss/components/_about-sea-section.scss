@@ -1,5 +1,5 @@
 .about-sea-section {
-    //background-color: $dark-green;
+  padding-top: rem-calc(20);
 }
 
 .mini-card {
@@ -52,6 +52,7 @@
       margin-top: rem-calc(6);
       font-size: rem-calc(10);
       text-align: center;
+      color: $black;
 
       &:hover {
         text-decoration: none;

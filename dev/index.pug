@@ -39,94 +39,96 @@ include pug/common/_head
             section.info-section
                 .container
                     h2 Aktuell & Informativ
-                    .row
-                        .col-md-6.col-lg-4
-                            .card
-                                .image(style='background-image: url("images/card1.jpg");')
-                                .card-body
-                                    ul.tags-list
-                                        li.tags-green
-                                            a(href='#') News
-                                        li.tags-yellow
-                                            a(href='#') Tiere
-                                    .footer
-                                        .card-text
-                                            time.time(datetime='26-05-2018')
-                                                a(href='#') 26.05.2018
-                                            a(href='#') Schleswig-Holstein
-                                        h5.card-title
-                                            a(href='#') Wurfzeit der Seehunde beginnt
-                                        i.icon-horse.emplem
-                        .col-md-6.col-lg-4
-                            .card
-                                .image(style='background-image: url("images/card2.jpg");')
-                                .card-body
-                                    ul.tags-list
-                                        li.tags-green
-                                            a(href='#') Wissensbeitrag
-                                        li.tags-yellow
-                                            a(href='#') Lebensraum
-                                    .footer
-                                        .card-text
-                                            time.time(datetime='09-05-2018')
-                                                a(href='#') 09.05.2018
-                                            a(href='#') Hamburg
-                                        h5.card-title
-                                            a(href='#') Seehundwelpen erreichen Rekordzahlen
-                                        i.icon-hamburg.emplem
-                        .col-md-6.col-lg-4
-                            .card
-                                .image(style='background-image: url("images/card3.jpg");')
-                                .card-body
-                                    ul.tags-list
-                                        li.tags-green
-                                            a(href='#') Wissensbeitrag
-                                        li.tags-yellow
-                                            a(href='#') Tiere
-                                    .footer
-                                        .card-text
-                                            time.time(datetime='09-05-2018')
-                                                a(href='#') 09.05.2018
-                                            a(href='#') Hamburg
-                                        h5.card-title
-                                            a(href='#') Die Vogelwelt des Nationalparks erleben
-                                        i.icon-schleswig-holstein.emplem
-                        .col-md-6.col-lg-8
-                            .card
-                                .image(style='background-image: url("images/card4.jpg");')
-                                .card-body
-                                    ul.tags-list
-                                        li.tags-green
-                                            a(href='#') Medien
-                                        li.tags-yellow
-                                            a(href='#') KINDER & JUGENDLICHE
-                                    .footer
-                                        .card-text
-                                            time.time(datetime='21-05-2018')
-                                                a(href='#') 21.05.2018
-                                            a(href='#') Niedersachsen
-                                        h5.card-title
-                                            a(href='#') Einmal Nationalpark-Ranger*in sein
-                                        i.icon-horse.emplem
-                                        .icon-play-btn
-                                            i.icon-play
-                        .col-md-6.col-lg-4
-                            .card
-                                .image(style='background-image: url("images/card5.jpg");')
-                                .card-body
-                                    ul.tags-list
-                                        li.tags-green
-                                            a(href='#') Wissensbeitrag
-                                        li.tags-yellow
-                                            a(href='#') Lebensraum
-                                    .footer
-                                        .card-text
-                                            time.time(datetime='21-05-2018')
-                                                a(href='#') 09.05.2018
-                                            a(href='#') Hamburg
-                                        h5.card-title
-                                            a(href='#') Seehundwelpen erreichen Rekordzahlen
-                                        i.icon-hamburg.emplem
+                    .card-holder
+                        .row
+                            .col-md-6.col-lg-4
+                                .card
+                                    .image(style='background-image: url("images/card1.jpg");')
+                                    .card-body
+                                        ul.tags-list
+                                            li.tags-green
+                                                a(href='#') News
+                                            li.tags-yellow
+                                                a(href='#') Tiere
+                                        .footer
+                                            .card-text
+                                                time.time(datetime='26-05-2018')
+                                                    a(href='#') 26.05.2018
+                                                a(href='#') Schleswig-Holstein
+                                            h5.card-title
+                                                a(href='#') Wurfzeit der Seehunde beginnt
+                                            i.icon-horse.emplem
+                            .col-md-6.col-lg-4
+                                .card
+                                    .image(style='background-image: url("images/card2.jpg");')
+                                    .card-body
+                                        ul.tags-list
+                                            li.tags-green
+                                                a(href='#') Wissensbeitrag
+                                            li.tags-yellow
+                                                a(href='#') Lebensraum
+                                        .footer
+                                            .card-text
+                                                time.time(datetime='09-05-2018')
+                                                    a(href='#') 09.05.2018
+                                                a(href='#') Hamburg
+                                            h5.card-title
+                                                a(href='#') Seehundwelpen erreichen Rekordzahlen
+                                            i.icon-hamburg.emplem
+                            .col-md-6.col-lg-4
+                                .card
+                                    .image(style='background-image: url("images/card3.jpg");')
+                                    .card-body
+                                        ul.tags-list
+                                            li.tags-green
+                                                a(href='#') Wissensbeitrag
+                                            li.tags-yellow
+                                                a(href='#') Tiere
+                                        .footer
+                                            .card-text
+                                                time.time(datetime='09-05-2018')
+                                                    a(href='#') 09.05.2018
+                                                a(href='#') Hamburg
+                                            h5.card-title
+                                                a(href='#') Die Vogelwelt des Nationalparks erleben
+                                            i.icon-schleswig-holstein.emplem
+                            .col-md-6.col-lg-8
+                                .card
+                                    .image(style='background-image: url("images/card4.jpg");')
+                                    .card-body
+                                        ul.tags-list
+                                            li.tags-green
+                                                a(href='#') Medien
+                                            li.tags-yellow
+                                                a(href='#') KINDER & JUGENDLICHE
+                                        .footer
+                                            .card-text
+                                                time.time(datetime='21-05-2018')
+                                                    a(href='#') 21.05.2018
+                                                a(href='#') Niedersachsen
+                                            h5.card-title
+                                                a(href='#') Einmal Nationalpark-Ranger*in sein
+                                            i.icon-horse.emplem
+                                            .icon-play-btn
+                                                i.icon-play
+                            .col-md-6.col-lg-4
+                                .card
+                                    .image(style='background-image: url("images/card5.jpg");')
+                                    .card-body
+                                        ul.tags-list
+                                            li.tags-green
+                                                a(href='#') Wissensbeitrag
+                                            li.tags-yellow
+                                                a(href='#') Lebensraum
+                                        .footer
+                                            .card-text
+                                                time.time(datetime='21-05-2018')
+                                                    a(href='#') 09.05.2018
+                                                a(href='#') Hamburg
+                                            h5.card-title
+                                                a(href='#') Seehundwelpen erreichen Rekordzahlen
+                                            i.icon-hamburg.emplem
+                    a(href='#').read-more Mehr Aktuelles anzeigen
             section.about-sea-section
                 .container
                     h2 Mehr zum Wattenmeer für …
@@ -210,7 +212,8 @@ include pug/common/_head
                         .col-12.col-6.col-md-4.d-md-flex
                             .card.custom-card
                                 .card-body
-                                    h2 Biosphärenreservat Halligen
+                                    h2
+                                        a(href='#') Biosphärenreservat Halligen
                                     .text
                                         p Biosphärenreservate sind von der UNESCO anerkannte Modellregionen, in denen erprobt wird, wie der Mensch, in gewachsenen Kulturlandschaften auch heute noch nachhaltig wirtschaften und gut leben kann.
                                     .footer
@@ -228,7 +231,8 @@ include pug/common/_head
                                 .card-body
                                     .image
                                         img(src='images/freigestellt.jpg' alt='junior ranger')
-                                    h2 Ranger
+                                    h2
+                                        a(href='#') Ranger
                                     .text
                                         p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec odio et velit tristique condimentum.
                                         p Aliquam ultrices non eros a pulvinar. Nulla ac finibus erat. Sed gravida ligula vitae congue lacinia. Nulla facilisi. Nulla tristique rutrum facilisis.
@@ -248,7 +252,8 @@ include pug/common/_head
                                             a(href='#') Lebensraum
                                     .image(style="background-image: url(images/card5.jpg);")
                                 .card-body
-                                    h2 Seehundwelpen erreichen Rekordzahlen
+                                    h2
+                                        a(href='#') Seehundwelpen erreichen Rekordzahlen
                                     .footer
                                         a(href="#")
                                             i.icon-arrow

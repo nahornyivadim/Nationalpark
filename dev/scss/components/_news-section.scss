@@ -18,8 +18,7 @@
 
   select {
     flex: 1 0 auto;
-    border: 1px solid #cccccc;
-    background: #fff;
+    border: 1px solid #ccc;
     font-size: 0.75rem;
     color: #ccc;
     padding: 0.1875rem 0.1875rem 0.1875rem 0.8125rem;
@@ -131,7 +130,7 @@
       height: 23px;
       margin-right: rem-calc(15);
       background-color: $dark-blue;
-
+      border-radius: 3px;
     }
   }
 
@@ -155,6 +154,14 @@
   @include media('≥desktop') {
     flex: 0 0 26%;
     max-width: 26%;
+  }
+
+  select {
+    border-radius: 3px;
+  }
+
+  button {
+    border-radius: 3px;
   }
 }
 

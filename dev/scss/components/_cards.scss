@@ -4,7 +4,7 @@
   margin-bottom: rem-calc(25);
 
   &-title {
-
+    max-width: 85%;
     a {
       @include animate(color);
       color: #fbfbfb;

@@ -12,3 +12,64 @@ body {
 a[href*="mailto:"] {
   word-wrap: break-word;
 }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: $select-bg url('images/bottom-arrow.svg') no-repeat 95% center;
+  padding-right: rem-calc(23);
+
+  option {
+    cursor: pointer;
+  }
+}
+
+select::-ms-expand {
+  display: none;
+  /* hide the default arrow in ie10 and ie11 */
+}
+
+input[type='submit'], button {
+  @include animate(opacity);
+  opacity: 1;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .7;
+  }
+}
+
+input, button {
+  &:focus {
+    outline: none;
+  }
+
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius:0;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 20%;
+  bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: $dark-blue;
+  z-index: 99999;
+
+  i {
+    color: $white;
+    transform: rotate(90deg);
+  }
+
+  &:hover {
+    background-color: #647897;
+    text-decoration: none;
+  }
+}

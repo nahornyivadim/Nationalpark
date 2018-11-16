@@ -1,17 +1,26 @@
 .custom-cards-section {
     padding-top: rem-calc(15);
-  padding-bottom: rem-calc(15);
+  padding-bottom: rem-calc(7);
 }
 
 .custom-card {
+  width: 100%;
   background-color: #b3c97f;
   min-height: auto;
+
 
   &.dark {
     background-color: $dark-blue;
 
     h2 {
-      color: $white;
+      a {
+        @include animate(color);
+        color: $white;
+
+        &:hover {
+          color: #b8b8b8;
+        }
+      }
     }
 
     .icon-arrow {
@@ -32,10 +41,11 @@
   }
 
   .card-body {
-    padding: rem-calc(28) rem-calc(17) rem-calc(10) rem-calc(17);
+    padding: rem-calc(28) rem-calc(17) 0 rem-calc(17);
   }
 
   h2 {
+    @include animate(color);
     text-align: left;
     margin-bottom: rem-calc(9);
 
@@ -45,6 +55,15 @@
 
     &:after {
       display: none;
+    }
+
+    a {
+      @include animate(color);
+      color: $black;
+
+      &:hover {
+        color: $dark-blue;
+      }
     }
   }
 
@@ -68,6 +87,7 @@
 
     li {
       margin-right: rem-calc(10);
+      margin-bottom: rem-calc(10);
       &:last-child {
         margin-right: 0;
       }
@@ -91,6 +111,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    a {
+      display: block;
+      width: 18px;
+      height: 22px;
+    }
   }
 
   .icon-arrow {
@@ -100,7 +126,7 @@
 
   &.card-img {
     .card-body {
-      padding: rem-calc(16px) rem-calc(10) rem-calc(10) rem-calc(24);
+      padding: rem-calc(16px) rem-calc(10) 0 rem-calc(24);
     }
 
     .circle-list {

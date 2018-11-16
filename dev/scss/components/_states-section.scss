@@ -2,6 +2,7 @@
   padding-top: rem-calc(20);
   padding-bottom: rem-calc(20);
   //background-color: $nautical;
+  text-align: center;
 
   @include media('≥tablet') {
     padding-top: rem-calc(43);
