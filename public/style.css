@@ -12,8 +12,8 @@ Theme URI:
 */
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon.eot?l03kkj");
-  src: url("fonts/icomoon.eot?l03kkj#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?l03kkj") format("truetype"), url("fonts/icomoon.woff?l03kkj") format("woff"), url("fonts/icomoon.svg?l03kkj#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?sash2r");
+  src: url("fonts/icomoon.eot?sash2r#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?sash2r") format("truetype"), url("fonts/icomoon.woff?sash2r") format("woff"), url("fonts/icomoon.svg?sash2r#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -29,6 +29,12 @@ Theme URI:
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.icon-Left_Arrow_Icon:before {
+  content: "\e913"; }
+
+.icon-Right_Arrow_Icon:before {
+  content: "\e914"; }
 
 .icon-horse:before {
   content: "\e911"; }
@@ -1430,6 +1436,8 @@ a[href*="mailto:"] {
     -ms-flex: 1 1 auto;
         flex: 1 1 auto;
     max-width: 100%; }
+    .pagination-block .pagination .page-item i {
+      font-size: 0.875rem; }
     .pagination-block .pagination .page-item:first-child {
       max-width: 50px;
       -ms-flex: 0 0 50px;
@@ -1443,8 +1451,6 @@ a[href*="mailto:"] {
         border-right: 1px solid rgba(0, 0, 0, 0.1);
         border-bottom-right-radius: 0;
         border-top-right-radius: 0; }
-        .pagination-block .pagination .page-item:first-child a i {
-          transform: rotate(180deg); }
     .pagination-block .pagination .page-item:last-child {
       max-width: 50px;
       -ms-flex: 0 0 50px;

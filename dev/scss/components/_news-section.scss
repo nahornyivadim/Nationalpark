@@ -294,6 +294,10 @@
       flex: 1 1 auto;
       max-width: 100%;
 
+      i {
+        font-size: rem-calc(14);
+      }
+
       &:first-child {
         max-width: 50px;
         flex: 0 0 50px;
@@ -307,9 +311,6 @@
           border-right: 1px solid rgba(0, 0, 0, 0.1);
           border-bottom-right-radius: 0;
           border-top-right-radius: 0;
-          i {
-            transform: rotate(180deg);
-          }
         }
       }
 
