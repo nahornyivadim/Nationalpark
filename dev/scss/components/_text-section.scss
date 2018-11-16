@@ -1,0 +1,136 @@
+.text-section {
+  h2 {
+    text-align: left;
+    margin-bottom: rem-calc(7);
+    &:after {
+      display: none;
+    }
+    @include media('≥desktop') {
+      font-size: rem-calc(34);
+      font-weight: 700;
+    }
+  }
+
+  .image {
+    margin-bottom: rem-calc(26);
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.text-block {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.img-descr {
+  padding-top: rem-calc(11);
+  strong {
+    display: block;
+    font-size: rem-calc(14);
+    margin-bottom: rem-calc(4);
+  }
+
+  p {
+    color: #4a4a4a;
+    font-size: rem-calc(14);
+    font-weight: 300;
+    &:last-of-type {
+      bottom: 0;
+    }
+  }
+}
+
+.info-block {
+  width: 280px;
+  margin: auto auto 20px;
+
+  @include media('≥tablet') {
+    margin-bottom: 0;
+    width: 308px;
+  }
+
+  @include media('≥desktop') {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .info-list {
+    @extend %listreset;
+
+    li {
+      margin-bottom: rem-calc(16);
+    }
+
+    .info-title {
+      color: $black;
+      font-size: rem-calc(30);
+      font-weight: 600;
+      margin-bottom: rem-calc(8);
+    }
+  }
+
+  .title {
+    font-size: 33px;
+    text-align: left;
+    color: $black;
+    font-weight: 700;
+    margin-right: -20px;
+    margin-bottom: rem-calc(19);
+
+    @include media('≥tablet') {
+      font-size: rem-calc(40);
+      text-align: right;
+    }
+  }
+
+  .inner {
+    padding: 0 rem-calc(34) rem-calc(20);
+    position: relative;
+    border: rem-calc(3) solid #b3c97f;
+    border-top: 0;
+    text-align: right;
+
+    &:before {
+      position: absolute;
+      bottom: 100%;
+      left: -3px;
+      height: 3px;
+      background: #b3c97f;
+      content: '';
+      width: 116px;
+    }
+
+    &:after {
+      position: absolute;
+      bottom: 100%;
+      right: -3px;
+      height: 72px;
+      background: #b3c97f;
+      content: '';
+      width: 3px;
+    }
+  }
+
+  .read-more {
+    @include animate(color);
+    color: #404040;
+    font-size: rem-calc(12);
+    font-weight: 600;
+
+    i {
+      font-size: rem-calc(10);
+      margin-left: rem-calc(10);
+      color: inherit;
+    }
+
+    &:hover {
+      color: $dark-blue;
+    }
+  }
+}

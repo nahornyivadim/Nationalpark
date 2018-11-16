@@ -90,3 +90,19 @@ a {
 a[href*="mailto:"] {
   word-wrap: break-word;
 }
+
+strong {
+  color: $black;
+  font-weight: 600;
+}
+
+p {
+  color: $black;
+  font-size: rem-calc(16);
+  font-weight: 300;
+  line-height: rem-calc(26);
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}

@@ -5,8 +5,9 @@ include pug/common/_head
             .jumbotron(style='background-image: url("images/bitmap.jpg")')
                 .inner
                 .bottom
-                    .logo
-                        img(src='images/main-logo.png' width='180' height='53' alt='Nationalpark Wattenmeer')
+                    .holder
+                        .logo
+                            img(src='images/main-logo.png' width='180' height='53' alt='Nationalpark Wattenmeer')
             section.news-section
                 .container
                     .h2 Aktuelles aus dem Wattenmeer
@@ -47,24 +48,25 @@ include pug/common/_head
                     .container
                         .holder
                             .row
-                                .col-12.col-md-6.col-lg-12
+                                .col-12.col-sm-6.col-lg-12.d-flex
                                     .news-item
                                         .inner.d-flex.flex-column.flex-lg-row
                                             .news-text.order-1.order-lg-0
                                                 ul.tags-list
                                                     li.tags-green
-                                                        a(href='#') Lorem Ipsum
+                                                        a(href="#") Lorem Ipsum
                                                     li.tags-yellow
-                                                        a(href='#') Lorem Ipsum
+                                                        a(href="#") Lorem Ipsum
                                                 h3.title Krabben-Brötchen kosten wieder weniger
                                                 .text
                                                     p Lorem ipsum dolor sit amet, consectetur adipiscing lectus nisi, ac sodales lorem imperdiet vitae.
                                                 .published
-                                                    time(datetime='26-05-2018') 26.05.2018
-                                                    span Niedersachsen
+                                                    time(datetime='26-05-2018')
+                                                        a(href="#") 26.05.2018
+                                                    a(href="#") Niedersachsen
                                             .news-image.order-0.order-lg-1
                                                 img(src='images/news1.jpg' width='175' height='115'  alt='image description')
-                                .col-12.col-md-6.col-lg-12
+                                .col-12.col-sm-6.col-lg-12.d-flex
                                     .news-item
                                         .inner.d-flex.flex-column.flex-lg-row
                                             .news-text.order-1.order-lg-0
@@ -72,11 +74,12 @@ include pug/common/_head
                                                 .text
                                                     p Lorem ipsum dolor sit amet, consectetur adipiscing lectus nisi, ac sodales lorem imperdiet vitae.
                                                 .published
-                                                    time(datetime='26-05-2018') 26.05.2018
-                                                    span Niedersachsen
+                                                    time(datetime='26-05-2018')
+                                                        a(href="#") 26.05.2018
+                                                    a(href="#") Niedersachsen
                                             .news-image
                                                 img(src='images/news1.jpg' width='175' height='115'  alt='image description')
-                                .col-12.col-md-6.col-lg-12
+                                .col-12.col-sm-6.col-lg-12.d-flex
                                     .news-item
                                         .inner.d-flex.flex-column.flex-lg-row
                                             .news-text.order-1.order-lg-0
@@ -84,8 +87,9 @@ include pug/common/_head
                                                 .text
                                                     p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean.
                                                 .published
-                                                    time(datetime='26-05-2018') 26.05.2018
-                                                    span Niedersachsen
+                                                    time(datetime='26-05-2018')
+                                                        a(href="#") 26.05.2018
+                                                    a(href="#") Niedersachsen
                         .pagination-block
                             nav
                                 ul.pagination

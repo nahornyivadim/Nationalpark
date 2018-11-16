@@ -1,0 +1,110 @@
+include pug/common/_head
+    block content
+        include pug/common/_header
+        main#main(role="main")
+            .jumbotron(style='background-image: url("images/wattenmeerkrabben.jpg")')
+                .inner
+                .bottom
+                    .holder
+                        .city-name
+                            i.icon-schleswig-Holstein
+                            span Schleswig-Holsteinisches Wattenmeer
+                        .logo
+                            img(src='images/main-logo.png' width='180' height='53' alt='Nationalpark Wattenmeer')
+            section.media-section
+                .container
+                    nav(aria-label='breadcrumb')
+                        ol.breadcrumb
+                            li.breadcrumb-item
+                                a(href='#') Home
+                            li.breadcrumb-item
+                                a(href='#') Schleswig-Holstein
+                            li.breadcrumb-item
+                                a(href='#') Service
+                            li.breadcrumb-item
+                                a(href='#') Mediathek
+                            li.breadcrumb-item
+                                a(href='#') Mediathek
+                            li.breadcrumb-item.active(aria-current='page') Broschüre "Unser Nationalpark"
+                    .post-block
+                        .top
+                            a.btn.btn-primary.back-btn(href='#') zurück zur Übersicht
+                        .row
+                            .col-sm-7.col-md-6.col-lg-7.mb-5.mb-sm-0
+                                .news-item
+                                    .inner.d-flex.flex-column.flex-lg-row
+                                        .news-text
+                                            h3.title Broschüre "Unser Nationalpark"
+                                            .text
+                                                p Broschüre "Unser Nationalpark" <br> 52 Seiten, Auflage 2013
+                                ul.download-list
+                                    li
+                                        a(href='#')
+                                            i.icon-download
+                                            span Broschüre herunterladen
+                                    li
+                                        a(href='#')
+                                            i.icon-basket
+                                            span Broschüre in Warenkorb legen
+                            .col-sm-5.col-md-6.col-lg-5
+                                .big-image
+                                    img(src='images/wattenmeerkrabbe_carousel.jpg' width='359' height='508' alt='image description')
+            section.interestPost-section
+                .container
+                    h2 Auch interessant
+                    .row
+                        .col-md-6.col-lg-4
+                            .card
+                                .image(style='background-image: url("images/bildschirmfoto1.jpg");')
+                                .card-body
+                                    ul.services-list
+                                        li
+                                            a(href='#')
+                                                i.icon-download-white
+                                        li
+                                            a(href='#')
+                                                i.icon-basket-white
+                                    .footer
+                                        .card-text
+                                            time.time(datetime='26-05-2018')
+                                                a(href="#") 09.05.2018
+                                            a(href="#") Schleswig-Holstein
+                                        h5.card-title
+                                            a(href="#") Broschüre - Nationalpark-Atlas Hamburgisches
+                                        i.icon-hamburg-big.emplem
+                        .col-md-6.col-lg-4
+                            .card
+                                .image(style='background-image: url("images/bitmap1.jpg");')
+                                .card-body
+                                    ul.services-list
+                                        li
+                                            a(href='#')
+                                                i.icon-image
+                                    .footer
+                                        .card-text
+                                            time.time(datetime='09-05-2018')
+                                                a(href="#") 09.05.2018
+                                            a(href="#") Hamburg
+                                        h5.card-title
+                                            a(href="#") Bilder - Nationalpark-Atlas Hamburgisches
+                                        i.icon-hamburg-big.emplem
+                        .col-md-6.col-lg-4
+                            .card
+                                .image(style='background-image: url("images/bildschirmfoto1.jpg");')
+                                .card-body
+                                    ul.services-list
+                                        li
+                                            a(href='#')
+                                                i.icon-download-white
+                                        li
+                                            a(href='#')
+                                                i.icon-basket-white
+                                    .footer
+                                        .card-text
+                                            time.time(datetime='09-05-2018')
+                                                a(href="#") 09.05.2018
+                                            a(href="#") Hamburg
+                                        h5.card-title
+                                            a(href="#") Broschüre - Nationalpark-Atlas Hamburgisches
+                                        i.icon-hamburg-big.emplem
+        include pug/common/_footer

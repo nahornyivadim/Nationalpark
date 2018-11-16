@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?1liwh');
-  src:  url('fonts/icomoon.eot?1liwh#iefix') format('embedded-opentype'),
-  url('fonts/icomoon.ttf?1liwh') format('truetype'),
-  url('fonts/icomoon.woff?1liwh') format('woff'),
-  url('fonts/icomoon.svg?1liwh#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?l03kkj');
+  src:  url('fonts/icomoon.eot?l03kkj#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?l03kkj') format('truetype'),
+  url('fonts/icomoon.woff?l03kkj') format('woff'),
+  url('fonts/icomoon.svg?l03kkj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-horse:before {
+  content: "\e911";
+}
+.icon-schleswig-Holstein:before {
+  content: "\e912";
+}
+.icon-hamburg-big:before {
+  content: "\e910";
+  color: #fff;
+}
 .icon-arrow:before {
   content: "\e900";
 }
@@ -44,12 +54,14 @@
 }
 .icon-home:before {
   content: "\e906";
+  color: #445468;
 }
 .icon-kinder:before {
   content: "\e907";
 }
 .icon-play:before {
   content: "\e908";
+  color: #fff;
 }
 .icon-presse:before {
   content: "\e909";
@@ -62,6 +74,7 @@
 }
 .icon-search:before {
   content: "\e90c";
+  color: #fff;
 }
 .icon-sportler:before {
   content: "\e90d";

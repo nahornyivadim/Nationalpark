@@ -11,8 +11,9 @@ include pug/common/_head
                             button
                                 i.icon-search
                 .bottom
-                    .logo
-                        img(src='images/main-logo.png' width='180' height='53' alt='Nationalpark Wattenmeer')
+                    .holder
+                        .logo
+                            img(src='images/main-logo.png' width='180' height='53' alt='Nationalpark Wattenmeer')
             section.states-section
                 .container
                     h2 Ein Wattenmeer, drei Bundesländer:
@@ -50,8 +51,9 @@ include pug/common/_head
                                             a(href='#') Tiere
                                     .footer
                                         .card-text
-                                            time.time(datetime='26-05-2018') 26.05.2018
-                                            span Schleswig-Holstein
+                                            time.time(datetime='26-05-2018')
+                                                a(href='#') 26.05.2018
+                                            a(href='#') Schleswig-Holstein
                                         h5.card-title
                                             a(href='#') Wurfzeit der Seehunde beginnt
                                         i.city-emblem
@@ -66,8 +68,9 @@ include pug/common/_head
                                             a(href='#') Lebensraum
                                     .footer
                                         .card-text
-                                            time.time(datetime='09-05-2018') 09.05.2018
-                                            span Hamburg
+                                            time.time(datetime='09-05-2018')
+                                                a(href='#') 09.05.2018
+                                            a(href='#') Hamburg
                                         h5.card-title
                                             a(href='#') Seehundwelpen erreichen Rekordzahlen
                                         i.city-emblem
@@ -82,8 +85,9 @@ include pug/common/_head
                                             a(href='#') Tiere
                                     .footer
                                         .card-text
-                                            time.time(datetime='09-05-2018') 09.05.2018
-                                            span Hamburg
+                                            time.time(datetime='09-05-2018')
+                                                a(href='#') 09.05.2018
+                                            a(href='#') Hamburg
                                         h5.card-title
                                             a(href='#') Die Vogelwelt des Nationalparks erleben
                                         i.city-emblem
@@ -98,8 +102,9 @@ include pug/common/_head
                                             a(href='#') KINDER & JUGENDLICHE
                                     .footer
                                         .card-text
-                                            time.time(datetime='21-05-2018') 21.05.2018
-                                            span Niedersachsen
+                                            time.time(datetime='21-05-2018')
+                                                a(href='#') 21.05.2018
+                                            a(href='#') Niedersachsen
                                         h5.card-title
                                             a(href='#') Einmal Nationalpark-Ranger*in sein
                                         i.city-emblem
@@ -116,8 +121,9 @@ include pug/common/_head
                                             a(href='#') Lebensraum
                                     .footer
                                         .card-text
-                                            time.time(datetime='21-05-2018') 09.05.2018
-                                            span Hamburg
+                                            time.time(datetime='21-05-2018')
+                                                a(href='#') 09.05.2018
+                                            a(href='#') Hamburg
                                         h5.card-title
                                             a(href='#') Seehundwelpen erreichen Rekordzahlen
                                         i.city-emblem
@@ -132,7 +138,8 @@ include pug/common/_head
                                 .body
                                     h3.title Kinder & Jugend
                                     span.sub-title Neues im Bekannten entdecken
-                                        i.icon-arrow
+                                        a(href='#')
+                                            i.icon-arrow
                         .col-6.col-md-4.col-lg-3
                             .mini-card
                                 .image
@@ -140,7 +147,8 @@ include pug/common/_head
                                 .body
                                     h3.title Familien
                                     span.sub-title Veranstaltungen, Tipps & mehr
-                                        i.icon-arrow
+                                        a(href='#')
+                                            i.icon-arrow
                         .col-6.col-md-4.col-lg-3
                             .mini-card
                                 .image
@@ -148,7 +156,8 @@ include pug/common/_head
                                 .body
                                     h3.title Unterstützer
                                     span.sub-title Spenden, Ehrenämter & mehr
-                                        i.icon-arrow
+                                        a(href='#')
+                                            i.icon-arrow
                         .col-6.col-md-4.col-lg-3
                             .mini-card
                                 .image
@@ -156,7 +165,8 @@ include pug/common/_head
                                 .body
                                     h3.title Sportler
                                     span.sub-title Kiten, Surfen, Wandern & mehr
-                                        i.icon-arrow
+                                        a(href='#')
+                                            i.icon-arrow
                         .col-6.col-md-4.col-lg-3
                             .mini-card
                                 .image
@@ -164,7 +174,8 @@ include pug/common/_head
                                 .body
                                     h3.title Tagestouristen
                                     span.sub-title Touren, Veranstaltungen & mehr
-                                        i.icon-arrow
+                                        a(href='#')
+                                            i.icon-arrow
                         .col-6.col-md-4.col-lg-3
                             .mini-card
                                 .image
@@ -172,7 +183,8 @@ include pug/common/_head
                                 .body
                                     h3.title Schulen
                                     span.sub-title Lehrmaterial, Führungen & mehr
-                                        i.icon-arrow
+                                        a(href='#')
+                                            i.icon-arrow
                         .col-6.col-md-4.col-lg-3
                             .mini-card
                                 .image
@@ -180,7 +192,8 @@ include pug/common/_head
                                 .body
                                     h3.title Einheimische
                                     span.sub-title Neues im Bekannten entdecken
-                                        i.icon-arrow
+                                        a(href='#')
+                                            i.icon-arrow
                         .col-6.col-md-4.col-lg-3
                             .mini-card
                                 .image
@@ -188,7 +201,8 @@ include pug/common/_head
                                 .body
                                     h3.title Presse
                                     span.sub-title Bilder, News & mehr
-                                        i.icon-arrow
+                                        a(href='#')
+                                            i.icon-arrow
             section.custom-cards-section
                 .container
                     h2 Auch interessant
@@ -200,7 +214,8 @@ include pug/common/_head
                                     .text
                                         p Biosphärenreservate sind von der UNESCO anerkannte Modellregionen, in denen erprobt wird, wie der Mensch, in gewachsenen Kulturlandschaften auch heute noch nachhaltig wirtschaften und gut leben kann.
                                     .footer
-                                        i.icon-arrow
+                                        a(href="#")
+                                            i.icon-arrow
                                         ul.circle-list
                                             li
                                                 span
@@ -218,7 +233,8 @@ include pug/common/_head
                                         p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec odio et velit tristique condimentum.
                                         p Aliquam ultrices non eros a pulvinar. Nulla ac finibus erat. Sed gravida ligula vitae congue lacinia. Nulla facilisi. Nulla tristique rutrum facilisis.
                                     .footer
-                                        i.icon-arrow
+                                        a(href="#")
+                                            i.icon-arrow
                                         ul.circle-list
                                             li
                                                 span
@@ -234,7 +250,8 @@ include pug/common/_head
                                 .card-body
                                     h2 Seehundwelpen erreichen Rekordzahlen
                                     .footer
-                                        i.icon-arrow
+                                        a(href="#")
+                                            i.icon-arrow
                                         ul.circle-list
                                             li
                                                 span

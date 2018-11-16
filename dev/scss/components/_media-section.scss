@@ -1,0 +1,146 @@
+.media-section {
+   padding-top: rem-calc(29);
+   padding-bottom: rem-calc(15);
+
+   .breadcrumb-item {
+     @include media('<phone') {
+       font-size: rem-calc(14);
+     }
+
+     font-size: rem-calc(16);
+     font-weight: 400;
+
+     a {
+       @include animate(color);
+       color: $black;
+
+       &:hover {
+         color: $dark-blue;
+       }
+     }
+
+     &.active {
+       color: $dark-blue;
+       font-weight: 700;
+     }
+   }
+ }
+
+.post-block {
+  .top {
+    margin-bottom: rem-calc(20);
+
+    @include media('≥phone') {
+      margin-bottom: rem-calc(28);
+    }
+  }
+
+  .download-list {
+    @extend %listreset;
+
+    li {
+      margin-bottom: rem-calc(13);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      a {
+        @include animate(opacity);
+        display: flex;
+        align-items: center;
+        color: $dark-blue;
+        opacity: 1;
+        font-size: rem-calc(16);
+        font-weight: 300;
+
+        &:hover {
+          opacity: .8;
+          text-decoration: none;
+        }
+
+        i {
+          margin-right: rem-calc(8);
+        }
+      }
+    }
+  }
+
+  .icon-download {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url("images/download.svg") no-repeat center;
+    background-size: contain;
+  }
+
+  .icon-basket {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url("images/basket.svg") no-repeat center;
+    background-size: contain;
+  }
+
+  .news-item {
+    padding-top: 0;
+    margin-bottom: rem-calc(20);
+    border-bottom: 0;
+    padding-bottom: 0;
+
+    @include media('≥tablet') {
+      margin-bottom: rem-calc(73);
+    }
+
+    .text {
+      font-size: rem-calc(14);
+
+      @include media('≥phone') {
+        font-size: rem-calc(24);
+        line-height: rem-calc(36);
+      }
+    }
+
+    .inner {
+      max-width: 100%;
+    }
+
+    .title {
+      margin-bottom: 0;
+      @include media('≥phone') {
+        margin-bottom: rem-calc(33);
+      }
+    }
+  }
+
+  .back-btn {
+    @include media('<phone') {
+      font-size: rem-calc(14);
+    }
+
+    font-size: rem-calc(16);
+    border-radius: 2px;
+
+    &:before {
+      display: inline-block;
+      vertical-align: middle;
+      content: '';
+      border-right: solid $white rem-calc(10);
+      border-top: solid transparent 5px;
+      border-bottom: solid transparent 5px;
+      margin-right: rem-calc(15);
+    }
+  }
+
+  .big-image {
+    @include media('≥tablet') {
+      max-width: 359px;
+      margin-left: auto;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

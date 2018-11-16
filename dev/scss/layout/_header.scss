@@ -1,7 +1,5 @@
 #header {
-  @include media('<desktop') {
-    padding-bottom: 10px;
-  }
+
 }
 
 //header top
@@ -9,11 +7,26 @@
   background-color: #f1f1f1;
   padding: rem-calc(4) 0 rem-calc(5) 0;
 
+
   .inner {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     max-width: 1070px;
+  }
+
+  .search-form {
+    display: none;
+    @include media('≥phone') {
+      display: block;
+    }
+  }
+}
+
+.header-bottom {
+  @include media('<desktop') {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 

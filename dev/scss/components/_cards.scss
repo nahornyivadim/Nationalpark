@@ -4,13 +4,14 @@
   margin-bottom: rem-calc(25);
 
   &-title {
+
     a {
       @include animate(color);
       color: #fbfbfb;
       text-decoration: none;
       &:hover {
         text-decoration: none;
-        color: $white;
+        color: #b4b4b4;
       }
     }
   }
@@ -30,6 +31,10 @@
     font-weight: 400;
     line-height: 1;
     margin-bottom: rem-calc(8);
+
+    a {
+      color: #fbfbfb;
+    }
 
     .time {
       &:after {
@@ -81,10 +86,10 @@
     bottom: 0;
     margin: auto;
     font-size: rem-calc(60);
-    color: rgba(255,255,255,.9);
+    color: rgba(255, 255, 255, .9);
     z-index: 1;
     &:hover {
-      color: rgba(255,255,255,1);
+      color: rgba(255, 255, 255, 1);
     }
   }
 }

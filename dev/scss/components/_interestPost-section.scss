@@ -1,0 +1,43 @@
+.interestPost-section {
+  padding-top: rem-calc(10);
+  padding-bottom: rem-calc(20);
+
+  .services-list {
+    @extend %listreset;
+    display: flex;
+    align-items: center;
+
+    i {
+      @include animate(opacity);
+      opacity: 1;
+      display: block;
+      width: 50px;
+      height: 50px;
+      background-size: cover;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    .icon-image {
+      background: url("images/img-icon.svg") no-repeat center;
+    }
+
+    .icon-download-white {
+      background: url("images/download-white.svg") no-repeat center;
+    }
+
+    .icon-basket-white {
+      background: url("images/basket-white.svg") no-repeat center;
+    }
+  }
+}
+
+.emplem {
+  position: absolute;
+  font-size: rem-calc(39);
+  right: rem-calc(16);
+  bottom: rem-calc(13);
+  color: $white;
+}

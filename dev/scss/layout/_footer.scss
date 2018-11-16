@@ -63,6 +63,14 @@
         text-decoration: none;
       }
     }
+
+    i {
+      font-size: rem-calc(30);
+      color: $black;
+      &:before {
+        color: inherit;
+      }
+    }
   }
 
   .image {

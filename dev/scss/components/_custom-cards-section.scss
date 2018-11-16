@@ -1,10 +1,23 @@
 .custom-cards-section {
-
+    padding-top: rem-calc(15);
+  padding-bottom: rem-calc(15);
 }
 
 .custom-card {
   background-color: #b3c97f;
   min-height: auto;
+
+  &.dark {
+    background-color: $dark-blue;
+
+    h2 {
+      color: $white;
+    }
+
+    .icon-arrow {
+      color: $white;
+    }
+  }
 
   .header {
     position: relative;
@@ -153,6 +166,12 @@
         margin-bottom: rem-calc(8);
         line-height: 1.3;
       }
+    }
+  }
+
+  a {
+    &:hover {
+      text-decoration: none;
     }
   }
 }

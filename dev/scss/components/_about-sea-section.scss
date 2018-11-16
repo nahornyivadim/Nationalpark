@@ -47,11 +47,19 @@
       font-size: rem-calc(14);
     }
 
-    i {
+    a {
       display: block;
       margin-top: rem-calc(6);
       font-size: rem-calc(10);
       text-align: center;
+
+      &:hover {
+        text-decoration: none;
+        i {
+          @include animate(opacity);
+          opacity: .7;
+        }
+      }
     }
   }
 }

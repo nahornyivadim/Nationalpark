@@ -1,0 +1,129 @@
+include pug/common/_head
+    block content
+        include pug/common/_header
+        main#main(role="main")
+            .jumbotron(style='background-image: url("images/wattenmeerkrabben.jpg")')
+                .inner
+                .bottom
+                    .holder
+                        .city-name
+                            i.icon-schleswig-Holstein
+                            span Schleswig-Holsteinisches Wattenmeer
+                        .logo
+                            img(src='images/main-logo.png' width='180' height='53' alt='Nationalpark Wattenmeer')
+            section.media-section
+                .container
+                    nav(aria-label='breadcrumb')
+                        ol.breadcrumb
+                            li.breadcrumb-item
+                                a(href='#') Home
+                            li.breadcrumb-item
+                                a(href='#') Schleswig-Holstein
+                            li.breadcrumb-item.active(aria-current='page') Übersicht
+                    .post-block
+                        .top
+                            a.btn.btn-primary.back-btn(href='#') zurück zur Übersicht
+                        .row
+                            .col-sm-7.col-md-6.col-lg-7.mb-2.mb-sm-0
+                                .news-item
+                                    .inner.d-flex.flex-column.flex-lg-row
+                                        .news-text
+                                            h3.title Krabbenfischerei im Wattenmeer
+                                            .text
+                                                p Die malerischen Krabbenkutter sind ein charakteristisches Bild unserer Wattenmeerküste und ein Symbol für den Wattenmeertourismus.
+
+                            .col-sm-5.col-md-6.col-lg-5
+                                .big-image
+                                    img(src='images/wattenmeerkrabbe_carousel-new.jpg' width='359' height='508' alt='image description')
+                                    .img-descr
+                                        strong Lorem ipsum dolor sit amet ut wisi
+                                        p Quelle: Max Musterman
+            section.text-section
+                .container
+                    .row
+                        .col-md-6.col-lg-7.col-lg-7.col-xl-8
+                            .text-block
+                                h2 Berufsbild: Krabbenfischer
+                                p Nordseegarnelen oder Krabben sind Krebse, die an den Flachwasserküsten der Nordsee, vor allem im Bereich des Wattenmeeres leben. Sie können vermutlich 4 Jahre alt und maximal 105 Millimeter groß werden. Nach 9 Monaten sind sie 45 Millimeter groß, können sich fortpflanzen und werden befischt.
+                                p Die gewerbliche Krabbenfischerei wird von rund 100 hiesigen, relativ kleinen Kuttern durchgeführt. Auf jede Seite des Schiffes ziehen auf Kufen laufende Baumkurren ein weit geöffnetes Netz über den Meeresboden. Gewerbliche Krabbenfischerei ist sowohl in Robben- und Vogelschutzgebieten, als auch in den Schutzzonen 1 zulässig. Innerhalb der 12 Seemeilen-Zone darf nur mit Fahrzeugen bis 300 PS gefischt werden. Für die Krabbenfischerei gibt es – im Gegensatz zu anderen Fischereien in der Nordsee – keine gesetzliche Fangmengenbegrenzung. Küstennah unterliegt diese Fischerei meist nationalen Regelungen.
+                                .image
+                                    img(src='images/crangon-crangon.jpg' width='726' height='347' alt='image description')
+                                    .img-descr
+                                        strong Lorem ipsum dolor sit amet ut wisi
+                                        p Quelle: Max Musterman
+                        .col-md-6.col-lg-5.col-lg-5.col-xl-4
+                            .info-block
+                                .info
+                                    .title Schon gewußt?
+                                    .inner
+                                        ul.info-list
+                                            li
+                                                .info-title 21.000
+                                                p Tonnen Krabben jährlich werden angelandeet
+                                            li
+                                                .info-title 8-30%
+                                                p aller Jungschollen sterben bei der europäischen Garnelenfischerei
+                                            li
+                                                .info-title 100
+                                                p gewerbliche Krabbenkutter fischen in der Nordsee
+                                        a(href='#').read-more
+                                            |view source
+                                            i.icon-arrow
+                    .text-block
+                        h2 Ökologische Zusammenhänge
+                        p Im dänisch-deutsch-niederländischen Wattenmeer werden jährlich rund 21.000 t Krabben (Mittel 1994 – 2003) angelandet. Leider gelangen bei der Fischerei auf Garnelen viele kleine Fische und Meerestiere ins Netz, die zwar rasch wieder ins Meer zurückgeworfen werden, dort aber oft nicht überleben, der Beifang. Die fischereilich wichtigste Art im Beifang sind Schollen. Eine knappe Milliarde junger Schollen, das sind 8 – 30 % aller Jungschollen, sterben bei der europäischen Garnelenfischerei. Wären sie groß geworden, würden schätzungsweise 12.000 Tonnen Schollen in der Nordsee mehr gefangen werden.
+                        img(src='images/peter-ording.jpg' width='1279' height='524' alt='image description')
+                        .image
+                            .img-descr
+                                strong Lorem ipsum dolor sit amet ut wisi
+                                p Quelle: Max Musterman
+                        p Wissenschaftler vermuten, dass die Krabbenfischerei schon vor Jahrzehnten ökologisch weit reichende Folgen hatte und erklären das weitgehende Verschwinden von Seemoos, Sandkorallen und anderen festsitzenden Bodentieren mit der  flächendeckenden Baumkurrenfischerei.
+                        p Gegenwärtig bemühen sich die deutschen Krabbenfischer um das MSC-Siegel (Marine Stewartship Council) für eine ökologisch verträgliche Fischerei. Um das MSC-Siegel, das von einer unabhängigen Organisation vergeben wird, zu erhalten, muss die Nachhaltigkeit nachgewiesen werden. Bei Krabben ist es schwer, diesen Nachweis über den herkömmlichen Weg zu führen, der unter anderem genaue Kenntnisse über die Bestände und deren Entwicklung fordert. Für genau solche Fälle gibt es eine Sonderregelung im Regelwerk des MSC – das Risk Based Framework-Verfahren. Der Nachweis einer nachhaltigen Fischerei erfolgt dabei durch Vorsorgemaßnahmen, beispielsweise indem einige Flächen freiwillig nicht befischt werden. Im Einvernehmen mit den Krabbenfischern will das schleswig-holsteinische Umweltministerium eine Studie in Auftrag geben, die Erkenntnisse für einen möglichen Weg des Risk Based Framework liefern soll.
+            section.custom-cards-section
+                .container
+                    h2 Auch interessant
+                    .row
+                        .col-12.col-6.col-md-4.d-md-flex
+                            .card.custom-card
+                                .card-body
+                                    h2 Biosphärenreservat Halligen
+                                    .text
+                                        p Biosphärenreservate sind von der UNESCO anerkannte Modellregionen, in denen erprobt wird, wie der Mensch, in gewachsenen Kulturlandschaften auch heute noch nachhaltig wirtschaften und gut leben kann.
+                                    .footer
+                                        a(href='#')
+                                            i.icon-arrow
+                                        ul.circle-list
+                                            li
+                                                span
+                                            li
+                                                span
+                                            li
+                                                span
+                        .col-12.col-6.col-md-4.d-md-flex
+                            .card.custom-card.card-img.dark
+                                .header
+                                    ul.tags-list
+                                        li.tags-green
+                                            a(href='#') Wissensbeitrag
+                                        li.tags-yellow
+                                            a(href='#') Lebensraum
+                                    .image(style="background-image: url(images/card5.jpg);")
+                                .card-body
+                                    h2 Seehundwelpen erreichen Rekordzahlen
+                                    .footer
+                                        a(href='#')
+                                            i.icon-arrow
+                                        ul.circle-list
+                                            li
+                                                span
+                        .col-12.col-6.col-md-4.d-md-flex
+                            .card.custom-card.dark
+                                .card-body
+                                    h2 Lorem ipsum dolor sit amet, consectet adipiscing elit. Nun blandit lectus nisi, ac sodales lorem imperdiet vitae.
+                                    .footer
+                                        a(href='#')
+                                            i.icon-arrow
+                                        ul.circle-list
+                                            li
+                                                span
+        include pug/common/_footer
