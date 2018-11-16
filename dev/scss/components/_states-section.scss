@@ -45,7 +45,26 @@
       margin-bottom: 0;
     }
 
+    i {
+      @include animate(color,.3s);
+    }
+
+    &:hover {
+      &:before {
+        width: 100%;
+      }
+
+      i {
+        color: $white;
+      }
+
+      a {
+        color: $white;
+      }
+    }
+
     &:before {
+      @include animate(width);
       position: absolute;
       left: 0;
       bottom: 0;
@@ -67,22 +86,28 @@
         background-color: $dark-green;
       }
     }
-
-    //&:hover {
-    //  &:before {
-    //    width: 100%;
-    //    height: 10px;
-    //  }
-    //}
   }
 
   .image {
     width: 37px;
     margin-right: rem-calc(16);
     text-align: center;
+
+    .icon-schleswig-holstein {
+      font-size: rem-calc(36);
+    }
+
+    .icon-hamburg {
+      font-size: rem-calc(34);
+    }
+
+    .icon-horse {
+      font-size: rem-calc(40);
+    }
   }
 
   a {
+    @include animate(color);
     color: $black;
     text-decoration: none;
     font-weight: 400;

@@ -110,6 +110,14 @@
       margin-right: rem-calc(10);
     }
   }
+
+  .icon-email {
+    display: inline-block;
+    vertical-align: mathematical;
+    background: url("images/email.svg") no-repeat center;
+    width: 12px;
+    height: 9px;
+  }
 }
 
 .img-brand {

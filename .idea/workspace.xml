@@ -2,33 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c46700ef-5734-45f5-831f-e804e71d216a" name="Default Changelist" comment="14.11.18">
-      <change afterPath="$PROJECT_DIR$/dev/NPW-Detailseite-Dynamic.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/NPW-Listenseite.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/NPW-Listenseite.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/fonts/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/fonts/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/fonts/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/fonts/icomoon.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/pug/common/_footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/common/_footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/base/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/base/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/components/_about-sea-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/components/_about-sea-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/components/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/components/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/components/_custom-cards-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/components/_custom-cards-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/components/_jumbotron-teplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/components/_jumbotron-teplate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pug/common/_head.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/common/_head.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/scss/components/_news-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/components/_news-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/scss/components/_states-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/components/_states-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/scss/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/layout/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/layout/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/vendors/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/vendors/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/NPW-Detailseite-Dynamic.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/NPW-Detailseite-Dynamic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/NPW-Listenseite.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/NPW-Listenseite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/NPW-Mediapage.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/NPW-Mediapage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/elements-bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/elements-bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/icomoon.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/wp-test.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/wp-test.html" afterDir="false" />
@@ -60,8 +45,8 @@
           <entry key="html" value="2" />
           <entry key="json" value="2" />
           <entry key="log" value="2" />
-          <entry key="pug" value="36" />
-          <entry key="scss" value="120" />
+          <entry key="pug" value="41" />
+          <entry key="scss" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -69,25 +54,25 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="2" />
-          <entry key="Jade" value="36" />
+          <entry key="Jade" value="41" />
           <entry key="PLAIN_TEXT" value="20" />
-          <entry key="SCSS" value="103" />
+          <entry key="SCSS" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2" />
-          <entry key="pug" value="5324" />
-          <entry key="scss" value="11345" />
+          <entry key="pug" value="5383" />
+          <entry key="scss" value="11562" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="Jade" value="5324" />
+          <entry key="Jade" value="5383" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="SCSS" value="11325" />
+          <entry key="SCSS" value="11542" />
         </counts>
       </usages-collector>
     </session>
@@ -97,34 +82,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/NPW-Listenseite.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+            <state relative-caret-position="408">
+              <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+              <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+              <caret line="88" column="64" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dev/scss/components/_news-section.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="306" column="37" selection-start-line="306" selection-start-column="37" selection-end-line="306" selection-end-column="37" />
+            <state relative-caret-position="408">
+              <caret line="221" column="5" selection-start-line="221" selection-start-column="5" selection-end-line="221" selection-end-column="5" />
               <folding>
                 <element signature="e#194#671#0" />
                 <element signature="e#686#2668#0" />
                 <element signature="e#2683#2779#0" />
                 <element signature="e#2794#2938#0" />
                 <element signature="e#2952#3078#0" />
-                <element signature="e#3091#5007#0" />
+                <element signature="e#5043#6520#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/NPW-Mediapage.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -149,6 +127,7 @@
       <find>medi</find>
       <find>city-logo</find>
       <find>card</find>
+      <find>city-emblem</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,13 +137,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/dev/pug/common/_head.pug" />
         <option value="$PROJECT_DIR$/dev/scss/layout/_common.scss" />
         <option value="$USER_HOME$/Desktop/icomoon (1)/demo.html" />
         <option value="$PROJECT_DIR$/dev/scss/components/jumbotron.scss" />
         <option value="$PROJECT_DIR$/dev/scss/components/_jumbotron.scss" />
         <option value="$PROJECT_DIR$/dev/scss/vendors/bootstrap/scss/_jumbotron.scss" />
-        <option value="$PROJECT_DIR$/dev/scss/components/_states-section.scss" />
         <option value="$PROJECT_DIR$/dev/wp-test.pug" />
         <option value="$PROJECT_DIR$/dev/pug/common/_header.pug" />
         <option value="$PROJECT_DIR$/dev/scss/base/_wp-reset.scss" />
@@ -173,21 +150,23 @@
         <option value="$PROJECT_DIR$/dev/scss/components/_media-section.scss" />
         <option value="$PROJECT_DIR$/dev/scss/components/_interestPost-section.scss" />
         <option value="$PROJECT_DIR$/dev/scss/vendors/_fonts.scss" />
-        <option value="$PROJECT_DIR$/dev/scss/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/dev/pug/common/_footer.pug" />
         <option value="$PROJECT_DIR$/dev/scss/components/_jumbotron-teplate.scss" />
-        <option value="$PROJECT_DIR$/dev/scss/style.scss" />
         <option value="$PROJECT_DIR$/dev/scss/base/_typography.scss" />
         <option value="$PROJECT_DIR$/dev/scss/components/_text-section.scss" />
         <option value="$PROJECT_DIR$/dev/scss/components/_cards.scss" />
         <option value="$PROJECT_DIR$/dev/scss/components/_about-sea-section.scss" />
-        <option value="$PROJECT_DIR$/dev/index.pug" />
         <option value="$PROJECT_DIR$/dev/scss/components/_custom-cards-section.scss" />
         <option value="$PROJECT_DIR$/dev/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/dev/NPW-Detailseite-Dynamic.pug" />
+        <option value="$PROJECT_DIR$/dev/NPW-Mediapage.pug" />
+        <option value="$PROJECT_DIR$/dev/index.pug" />
+        <option value="$PROJECT_DIR$/dev/scss/layout/_footer.scss" />
+        <option value="$PROJECT_DIR$/dev/scss/components/_states-section.scss" />
+        <option value="$PROJECT_DIR$/dev/pug/common/_head.pug" />
+        <option value="$PROJECT_DIR$/dev/scss/style.scss" />
         <option value="$PROJECT_DIR$/dev/NPW-Listenseite.pug" />
         <option value="$PROJECT_DIR$/dev/scss/components/_news-section.scss" />
-        <option value="$PROJECT_DIR$/dev/NPW-Mediapage.pug" />
       </list>
     </option>
   </component>
@@ -356,18 +335,18 @@
       <workItem from="1542182261307" duration="613000" />
       <workItem from="1542183939806" duration="18914000" />
       <workItem from="1542266897335" duration="27226000" />
-      <workItem from="1542356911845" duration="491000" />
+      <workItem from="1542356911845" duration="4035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109387000" />
+    <option name="totallyTimeSpent" value="112931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.26232114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.26232114" />
       <window_info id="Structure" order="1" sideWeight="0.5018182" side_tool="true" weight="0.27427185" />
       <window_info id="Gulp" order="2" sideWeight="0.50151974" side_tool="true" weight="0.27427185" />
       <window_info id="npm" order="3" sideWeight="0.50151974" side_tool="true" weight="0.25485438" />
@@ -382,8 +361,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008091" side_tool="true" weight="0.36489606" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49919093" visible="true" weight="0.31177828" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5023847" side_tool="true" weight="0.36489606" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49761525" visible="true" weight="0.31177828" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="12" weight="0.3290993" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -422,13 +401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="4" lean-forward="true" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/common/_head.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -485,13 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/scss/components/_states-section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/pug/common/_header.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -510,6 +475,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
           <caret line="326" column="9" selection-start-line="326" selection-start-column="9" selection-end-line="326" selection-end-column="9" />
+          <folding>
+            <element signature="e#9#15#0" />
+            <element signature="e#8#103#0" />
+            <element signature="e#205#893#0" />
+            <element signature="e#866#1459#0" />
+            <element signature="e#1049#1098#0" />
+            <element signature="e#1480#2062#0" />
+            <element signature="e#2078#2808#0" />
+            <element signature="e#2823#2950#0" />
+            <element signature="e#2970#3079#0" />
+            <element signature="e#3111#3134#0" />
+            <element signature="e#3211#3235#0" />
+            <element signature="e#3254#3373#0" />
+            <element signature="e#3388#3406#0" />
+            <element signature="e#3420#3611#0" />
+            <element signature="e#3626#3664#0" />
+            <element signature="e#3670#3735#0" />
+            <element signature="e#3748#3791#0" />
+            <element signature="e#3805#3849#0" />
+            <element signature="e#3867#3905#0" />
+            <element signature="e#3988#4007#0" />
+            <element signature="e#4018#4160#0" />
+            <element signature="e#4236#4242#0" />
+            <element signature="e#4455#4690#0" />
+            <element signature="e#4775#5288#0" />
+            <element signature="e#5319#5502#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -555,20 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/scss/layout/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/common/_footer.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/scss/components/_interestPost-section.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
@@ -576,17 +554,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/scss/base/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="93" column="8" lean-forward="true" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+          <folding>
+            <element signature="e#52#302#0" />
+            <element signature="e#315#939#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -601,15 +576,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="81" column="21" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="253" column="44" selection-start-line="253" selection-start-column="44" selection-end-line="253" selection-end-column="44" />
-          <caret line="217" column="44" selection-start-line="217" selection-start-column="44" selection-end-line="217" selection-end-column="44" />
-          <caret line="236" column="44" selection-start-line="236" selection-start-column="44" selection-end-line="236" selection-end-column="44" />
+          <folding>
+            <element signature="e#14#462#0" />
+            <element signature="e#21#241#0" />
+            <element signature="e#336#342#0" />
+            <element signature="e#279#564#0" />
+            <element signature="e#618#628#0" />
+            <element signature="e#661#675#0" />
+            <element signature="e#702#712#0" />
+            <element signature="e#1345#1355#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,6 +593,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#85#265#0" />
+            <element signature="e#248#369#0" />
+            <element signature="e#380#648#0" />
+            <element signature="e#659#1117#0" />
+            <element signature="e#1134#1230#0" />
+            <element signature="e#1249#1552#0" />
+            <element signature="e#1567#2390#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -624,6 +609,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="173" column="28" selection-start-line="173" selection-start-column="28" selection-end-line="173" selection-end-column="28" />
+          <folding>
+            <element signature="e#164#286#0" />
+            <element signature="e#298#469#0" />
+            <element signature="e#484#555#0" />
+            <element signature="e#562#735#0" />
+            <element signature="e#745#920#0" />
+            <element signature="e#1906#2748#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -631,6 +624,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="e#180#283#0" />
+            <element signature="e#300#371#0" />
+            <element signature="e#298#741#0" />
+            <element signature="e#764#801#0" />
+            <element signature="e#817#981#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -654,27 +654,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/NPW-Listenseite.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/scss/components/_news-section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="306" column="37" selection-start-line="306" selection-start-column="37" selection-end-line="306" selection-end-column="37" />
           <folding>
-            <element signature="e#194#671#0" />
-            <element signature="e#686#2668#0" />
-            <element signature="e#2683#2779#0" />
-            <element signature="e#2794#2938#0" />
-            <element signature="e#2952#3078#0" />
-            <element signature="e#3091#5007#0" />
+            <element signature="e#450#2507#0" />
           </folding>
         </state>
       </provider>
@@ -683,6 +664,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/scss/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="117" column="16" lean-forward="true" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+          <folding>
+            <element signature="e#8#565#0" />
+            <element signature="e#578#1391#0" />
+            <element signature="e#831#858#0" />
+            <element signature="e#877#908#0" />
+            <element signature="e#916#1026#0" />
+            <element signature="e#1481#1740#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/common/_footer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/scss/components/_states-section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="e#689#797#0" />
+            <element signature="e#830#868#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/common/_head.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/NPW-Listenseite.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+          <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+          <caret line="88" column="64" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/scss/components/_news-section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="221" column="5" selection-start-line="221" selection-start-column="5" selection-end-line="221" selection-end-column="5" />
+          <folding>
+            <element signature="e#194#671#0" />
+            <element signature="e#686#2668#0" />
+            <element signature="e#2683#2779#0" />
+            <element signature="e#2794#2938#0" />
+            <element signature="e#2952#3078#0" />
+            <element signature="e#5043#6520#0" />
+          </folding>
         </state>
       </provider>
     </entry>

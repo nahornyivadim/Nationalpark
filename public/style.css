@@ -1,5 +1,5 @@
 /*
-Theme Name: Base
+Theme Name: National park Wattenmeer
 Author: Anonymous
 Author URI:
 Version: 1
@@ -980,7 +980,16 @@ a[href*="mailto:"] {
         font-size: 1.875rem; } }
     .states-list li:last-child {
       margin-bottom: 0; }
+    .states-list li i {
+      transition: color 0.3s ease-in-out; }
+    .states-list li:hover:before {
+      width: 100%; }
+    .states-list li:hover i {
+      color: #fff; }
+    .states-list li:hover a {
+      color: #fff; }
     .states-list li:before {
+      transition: width 0.3s ease-in-out;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -997,7 +1006,14 @@ a[href*="mailto:"] {
     width: 37px;
     margin-right: 1rem;
     text-align: center; }
+    .states-list .image .icon-schleswig-holstein {
+      font-size: 2.25rem; }
+    .states-list .image .icon-hamburg {
+      font-size: 2.125rem; }
+    .states-list .image .icon-horse {
+      font-size: 2.5rem; }
   .states-list a {
+    transition: color 0.3s ease-in-out;
     color: #000;
     text-decoration: none;
     font-weight: 400; }
@@ -1346,13 +1362,13 @@ a[href*="mailto:"] {
   .news-item .tags-list {
     -ms-flex-pack: start;
         justify-content: flex-start; }
-  .news-item .title {
+  .news-item .title a {
     color: #000;
     font-size: 1.25rem;
     font-weight: 700;
     margin-bottom: 0; }
     @media (min-width: 768px) {
-      .news-item .title {
+      .news-item .title a {
         font-size: 2.125rem; } }
   .news-item .text {
     color: #000;
@@ -1771,6 +1787,12 @@ a[href*="mailto:"] {
       color: #445468; }
     .soc-list a i {
       margin-right: 0.625rem; }
+  .soc-list .icon-email {
+    display: inline-block;
+    vertical-align: mathematical;
+    background: url("images/email.svg") no-repeat center;
+    width: 12px;
+    height: 9px; }
 
 .img-brand {
   padding: 0 10px;
